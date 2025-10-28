@@ -15,7 +15,6 @@ class BybitClient:
         self.api_key = Config.BYBIT_API_KEY
         self.api_secret = Config.BYBIT_API_SECRET
         
-        # Проверяем наличие API ключей
         if not self.api_key or not self.api_secret:
             self.logger.log("ERROR: API keys not found in .env file", 'error')
             raise ValueError("API keys not configured")
@@ -26,11 +25,9 @@ class BybitClient:
         """Генерация подписи для API запросов v5"""
         try:
             if method.upper() == "GET" and params:
-                # Для GET: параметры как query string
                 param_str = "&".join([f"{k}={v}" for k, v in sorted(params.items())])
                 sign_str = timestamp + self.api_key + recv_window + param_str
             else:
-                # Для POST: параметры как JSON строка
                 param_str = json.dumps(params) if params else "{}"
                 sign_str = timestamp + self.api_key + recv_window + param_str
             
@@ -52,7 +49,6 @@ class BybitClient:
             timestamp = str(int(time.time() * 1000))
             recv_window = "5000"
             
-            # Генерируем подпись
             signature = self._generate_signature(timestamp, recv_window, params, method)
             if not signature:
                 return None
@@ -73,16 +69,12 @@ class BybitClient:
                 headers["Content-Type"] = "application/json"
                 response = requests.post(url, headers=headers, json=params, timeout=10)
             
-            # Детальная диагностика ответа
-            self.logger.log(f"Response status: {response.status_code}", 'info')
-            
             if response.status_code != 200:
                 self.logger.log(f"API error: Status {response.status_code}, Response: {response.text}", 'error')
                 return None
                 
             result = response.json()
             
-            # Проверяем код возврата Bybit
             ret_code = result.get('retCode')
             ret_msg = result.get('retMsg', 'No message')
             
@@ -90,7 +82,6 @@ class BybitClient:
                 self.logger.log(f"Bybit API error {ret_code}: {ret_msg}", 'error')
                 return None
                 
-            self.logger.log(f"API request successful: {ret_msg}", 'info')
             return result
             
         except requests.exceptions.RequestException as e:
@@ -107,7 +98,6 @@ class BybitClient:
         """Тест подключения к API"""
         self.logger.log("Testing API connection...", 'info')
         
-        # Простой запрос для проверки подключения
         response = self._make_request('GET', '/v5/market/time')
         
         if response and 'result' in response:
@@ -119,7 +109,7 @@ class BybitClient:
             return False
     
     def get_account_balance(self):
-        """Получение баланса аккаунта через API v5 - ИСПРАВЛЕННАЯ ВЕРСИЯ"""
+        """Получение баланса аккаунта"""
         self.logger.log("Getting account balance...", 'info')
         
         try:
@@ -130,17 +120,14 @@ class BybitClient:
             if response and 'result' in response:
                 balance_list = response['result'].get('list', [])
                 if balance_list and len(balance_list) > 0:
-                    # Ищем USDT баланс
                     for coin in balance_list[0].get('coin', []):
                         if coin.get('coin') == 'USDT':
-                            # Пробуем разные поля баланса в порядке приоритета
                             balance = coin.get('availableToWithdraw')
                             if balance is None or balance == '':
                                 balance = coin.get('availableBalance')
                             if balance is None or balance == '':
                                 balance = coin.get('walletBalance')
                             
-                            # Проверяем, что баланс не пустой и может быть сконвертирован
                             if balance and balance != '':
                                 try:
                                     balance_float = float(balance)
@@ -158,7 +145,7 @@ class BybitClient:
             return Config.INITIAL_BALANCE
     
     def get_current_price(self, symbol):
-        """Получение текущей цены через API v5"""
+        """Получение текущей цены"""
         try:
             response = self._make_request('GET', '/v5/market/tickers', {
                 'category': 'linear',
@@ -179,7 +166,7 @@ class BybitClient:
             return None
     
     def get_klines(self, symbol, interval='15', limit=100):
-        """Получение исторических данных через API v5"""
+        """Получение исторических данных"""
         try:
             response = self._make_request('GET', '/v5/market/kline', {
                 'category': 'linear',
@@ -198,14 +185,12 @@ class BybitClient:
                     'timestamp', 'open', 'high', 'low', 'close', 'volume', 'turnover'
                 ])
                 
-                # Конвертация типов данных
                 df['open'] = pd.to_numeric(df['open'], errors='coerce')
                 df['high'] = pd.to_numeric(df['high'], errors='coerce')
                 df['low'] = pd.to_numeric(df['low'], errors='coerce')
                 df['close'] = pd.to_numeric(df['close'], errors='coerce')
                 df['volume'] = pd.to_numeric(df['volume'], errors='coerce')
                 
-                # Удаление строк с NaN
                 df = df.dropna()
                 
                 if len(df) < 20:
@@ -221,27 +206,27 @@ class BybitClient:
             self.logger.log(f"Error getting klines for {symbol}: {e}", 'error')
             return None
     
-    def place_order(self, symbol, side, quantity, order_type="Market"):
-        """Размещение ордера через API v5 - ИСПРАВЛЕННАЯ ВЕРСИЯ"""
+    def place_order(self, symbol, side, quantity, order_type="Market", price=None):
+        """Размещение ордера с улучшенной обработкой"""
         try:
-            # Рассчитываем размер позиции
             qty = str(round(quantity, 4))
-            
-            # Исправляем сторону ордера для Bybit API v5
-            # Bybit ожидает "Buy" или "Sell" (с заглавной буквы)
             bybit_side = "Buy" if side.upper() == "BUY" else "Sell"
             
             params = {
                 'category': 'linear',
                 'symbol': symbol,
-                'side': bybit_side,  # Используем исправленную сторону
+                'side': bybit_side,
                 'orderType': order_type,
                 'qty': qty,
                 'timeInForce': 'GTC',
-                'positionIdx': 0  # Добавляем обязательный параметр для хеджирования
+                'positionIdx': 0
             }
             
-            self.logger.log(f"Placing order: {bybit_side} {qty} {symbol}", 'info')
+            # Добавляем цену для лимитных ордеров
+            if order_type == "Limit" and price is not None:
+                params['price'] = str(round(price, 4))
+            
+            self.logger.log(f"Placing order: {bybit_side} {qty} {symbol} ({order_type})", 'info')
             
             response = self._make_request('POST', '/v5/order/create', params)
             
@@ -257,13 +242,55 @@ class BybitClient:
             self.logger.log(f"Error placing order for {symbol}: {e}", 'error', True)
             return None
     
-    def get_server_time(self):
-        """Получение времени сервера для тестирования подключения"""
+    def get_open_positions(self):
+        """Получение открытых позиций с исправленной обработкой"""
         try:
-            response = self._make_request('GET', '/v5/market/time', {})
-            if response and 'result' in response:
-                return response['result']['timeSecond']
-            return None
+            response = self._make_request('GET', '/v5/position/list', {
+                'category': 'linear',
+                'settleCoin': 'USDT'
+            })
+            
+            if response and 'result' in response and 'list' in response['result']:
+                positions = response['result']['list']
+                active_positions = []
+                
+                for pos in positions:
+                    try:
+                        # Безопасное преобразование размеров
+                        size_str = pos.get('size', '0')
+                        size = float(size_str) if size_str and size_str != '' else 0.0
+                        
+                        if size > 0:
+                            # Безопасное преобразование цен
+                            avg_price_str = pos.get('avgPrice', '0')
+                            avg_price = float(avg_price_str) if avg_price_str and avg_price_str != '' else 0.0
+                            
+                            leverage_str = pos.get('leverage', '1')
+                            leverage = float(leverage_str) if leverage_str and leverage_str != '' else 1.0
+                            
+                            liq_price_str = pos.get('liqPrice', '0')
+                            liq_price = float(liq_price_str) if liq_price_str and liq_price_str != '' else 0.0
+                            
+                            unrealised_pnl_str = pos.get('unrealisedPnl', '0')
+                            unrealised_pnl = float(unrealised_pnl_str) if unrealised_pnl_str and unrealised_pnl_str != '' else 0.0
+                            
+                            active_positions.append({
+                                'symbol': pos['symbol'],
+                                'side': pos['side'],
+                                'size': size,
+                                'entry_price': avg_price,
+                                'leverage': leverage,
+                                'liq_price': liq_price,
+                                'unrealised_pnl': unrealised_pnl
+                            })
+                    except (ValueError, TypeError) as e:
+                        self.logger.log(f"Error parsing position data for {pos.get('symbol', 'unknown')}: {e}", 'warning')
+                        continue
+                
+                return active_positions
+            
+            return []
+            
         except Exception as e:
-            self.logger.log(f"Error getting server time: {e}", 'error')
-            return None
+            self.logger.log(f"Error getting positions: {e}", 'error')
+            return []

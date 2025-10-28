@@ -981,3 +981,722 @@
 2025-10-28 19:49:34,684 - trading_bot - INFO - API request successful: OK
 2025-10-28 19:49:34,686 - trading_bot - INFO - Производительность | Циклы: 4 | Сделки: 0 | Винрейт: 0.0% | Отклонено: 0 | Активные: 0 | Баланс: 9770.16 USDT
 2025-10-28 19:50:33,506 - trading_bot - INFO - Бот остановлен пользователем
+2025-10-28 20:17:14,151 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 20:17:14,151 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 20:17:14,151 - trading_bot - INFO - Testing API connection...
+2025-10-28 20:17:14,599 - trading_bot - INFO - Response status: 200
+2025-10-28 20:17:14,599 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:17:14,600 - trading_bot - INFO - API connection successful. Server time: 1761671834
+2025-10-28 20:17:14,601 - trading_bot - INFO - Getting account balance...
+2025-10-28 20:17:15,009 - trading_bot - INFO - Response status: 200
+2025-10-28 20:17:15,009 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:17:15,010 - trading_bot - INFO - Account balance: 9770.3320716 USDT
+2025-10-28 20:17:15,010 - trading_bot - INFO - Профессиональный торговый бот инициализирован с балансом: 9770.3320716 USDT
+2025-10-28 20:17:15,316 - trading_bot - INFO - 🚀 ПРОФЕССИОНАЛЬНЫЙ ТОРГОВЫЙ БOT ЗАПУЩЕН НА BYBIT TESTNET!
+2025-10-28 20:17:15,621 - trading_bot - INFO - Баланс: 9770.3320716 USDT
+2025-10-28 20:17:15,936 - trading_bot - INFO - Торговые пары: SOLUSDT, XRPUSDT, ADAUSDT, DOTUSDT, LINKUSDT, MATICUSDT, AVAXUSDT, ATOMUSDT, ALGOUSDT, NEARUSDT
+2025-10-28 20:17:16,251 - trading_bot - INFO - Запуск цикла #1 в 2025-10-28 20:17:16
+2025-10-28 20:17:16,251 - trading_bot - INFO - Getting account balance...
+2025-10-28 20:17:16,661 - trading_bot - INFO - Response status: 200
+2025-10-28 20:17:16,662 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:17:16,663 - trading_bot - INFO - Account balance: 9770.3320716 USDT
+2025-10-28 20:17:17,069 - trading_bot - INFO - Response status: 200
+2025-10-28 20:17:17,069 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:17:17,072 - trading_bot - INFO - Retrieved 200 klines for SOLUSDT
+2025-10-28 20:17:17,086 - trading_bot - ERROR - Ошибка анализа SOLUSDT: too many values to unpack (expected 2)
+2025-10-28 20:17:17,495 - trading_bot - INFO - Response status: 200
+2025-10-28 20:17:17,495 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:17:17,498 - trading_bot - INFO - Retrieved 200 klines for XRPUSDT
+2025-10-28 20:17:17,509 - trading_bot - ERROR - Ошибка анализа XRPUSDT: too many values to unpack (expected 2)
+2025-10-28 20:17:17,917 - trading_bot - INFO - Response status: 200
+2025-10-28 20:17:17,917 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:17:17,919 - trading_bot - INFO - Retrieved 200 klines for ADAUSDT
+2025-10-28 20:17:17,931 - trading_bot - ERROR - Ошибка анализа ADAUSDT: too many values to unpack (expected 2)
+2025-10-28 20:17:18,341 - trading_bot - INFO - Response status: 200
+2025-10-28 20:17:18,341 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:17:18,344 - trading_bot - INFO - Retrieved 200 klines for DOTUSDT
+2025-10-28 20:17:18,355 - trading_bot - ERROR - Ошибка анализа DOTUSDT: too many values to unpack (expected 2)
+2025-10-28 20:17:18,759 - trading_bot - INFO - Response status: 200
+2025-10-28 20:17:18,759 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:17:18,762 - trading_bot - INFO - Retrieved 200 klines for LINKUSDT
+2025-10-28 20:17:18,773 - trading_bot - ERROR - Ошибка анализа LINKUSDT: too many values to unpack (expected 2)
+2025-10-28 20:17:19,175 - trading_bot - INFO - Response status: 200
+2025-10-28 20:17:19,175 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:17:19,177 - trading_bot - WARNING - No kline data for MATICUSDT
+2025-10-28 20:17:19,177 - trading_bot - INFO - Недостаточно данных для MATICUSDT
+2025-10-28 20:17:19,590 - trading_bot - INFO - Response status: 200
+2025-10-28 20:17:19,590 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:17:19,591 - trading_bot - WARNING - No kline data for AVAXUSDT
+2025-10-28 20:17:19,591 - trading_bot - INFO - Недостаточно данных для AVAXUSDT
+2025-10-28 20:17:19,996 - trading_bot - INFO - Response status: 200
+2025-10-28 20:17:19,997 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:17:19,998 - trading_bot - WARNING - No kline data for ATOMUSDT
+2025-10-28 20:17:19,998 - trading_bot - INFO - Недостаточно данных для ATOMUSDT
+2025-10-28 20:17:20,402 - trading_bot - INFO - Response status: 200
+2025-10-28 20:17:20,403 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:17:20,404 - trading_bot - WARNING - No kline data for ALGOUSDT
+2025-10-28 20:17:20,404 - trading_bot - INFO - Недостаточно данных для ALGOUSDT
+2025-10-28 20:17:20,808 - trading_bot - INFO - Response status: 200
+2025-10-28 20:17:20,808 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:17:20,810 - trading_bot - INFO - Retrieved 200 klines for NEARUSDT
+2025-10-28 20:17:20,822 - trading_bot - ERROR - Ошибка анализа NEARUSDT: too many values to unpack (expected 2)
+2025-10-28 20:17:20,822 - trading_bot - INFO - Производительность | Циклы: 1 | Сделки: 0 | Винрейт: 0.0% | Отклонено: 0 | Активные: 0 | Баланс: 9770.33 USDT
+2025-10-28 20:17:20,822 - trading_bot - INFO - Бот работает. Нажмите Ctrl+C для остановки.
+2025-10-28 20:20:16,871 - trading_bot - INFO - Запуск цикла #2 в 2025-10-28 20:20:16
+2025-10-28 20:20:16,872 - trading_bot - INFO - Getting account balance...
+2025-10-28 20:20:17,322 - trading_bot - INFO - Response status: 200
+2025-10-28 20:20:17,322 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:20:17,323 - trading_bot - INFO - Account balance: 9770.3320716 USDT
+2025-10-28 20:20:17,737 - trading_bot - INFO - Response status: 200
+2025-10-28 20:20:17,738 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:20:17,741 - trading_bot - INFO - Retrieved 200 klines for SOLUSDT
+2025-10-28 20:20:17,759 - trading_bot - ERROR - Ошибка анализа SOLUSDT: too many values to unpack (expected 2)
+2025-10-28 20:20:18,208 - trading_bot - INFO - Response status: 200
+2025-10-28 20:20:18,208 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:20:18,210 - trading_bot - INFO - Retrieved 200 klines for XRPUSDT
+2025-10-28 20:20:18,222 - trading_bot - ERROR - Ошибка анализа XRPUSDT: too many values to unpack (expected 2)
+2025-10-28 20:20:18,635 - trading_bot - INFO - Response status: 200
+2025-10-28 20:20:18,635 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:20:18,637 - trading_bot - INFO - Retrieved 200 klines for ADAUSDT
+2025-10-28 20:20:18,649 - trading_bot - ERROR - Ошибка анализа ADAUSDT: too many values to unpack (expected 2)
+2025-10-28 20:20:19,092 - trading_bot - INFO - Response status: 200
+2025-10-28 20:20:19,093 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:20:19,096 - trading_bot - INFO - Retrieved 200 klines for DOTUSDT
+2025-10-28 20:20:19,113 - trading_bot - ERROR - Ошибка анализа DOTUSDT: too many values to unpack (expected 2)
+2025-10-28 20:20:19,547 - trading_bot - INFO - Response status: 200
+2025-10-28 20:20:19,547 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:20:19,550 - trading_bot - INFO - Retrieved 200 klines for LINKUSDT
+2025-10-28 20:20:19,562 - trading_bot - ERROR - Ошибка анализа LINKUSDT: too many values to unpack (expected 2)
+2025-10-28 20:20:20,003 - trading_bot - INFO - Response status: 200
+2025-10-28 20:20:20,003 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:20:20,005 - trading_bot - WARNING - No kline data for MATICUSDT
+2025-10-28 20:20:20,005 - trading_bot - INFO - Недостаточно данных для MATICUSDT
+2025-10-28 20:20:20,419 - trading_bot - INFO - Response status: 200
+2025-10-28 20:20:20,419 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:20:20,420 - trading_bot - WARNING - No kline data for AVAXUSDT
+2025-10-28 20:20:20,420 - trading_bot - INFO - Недостаточно данных для AVAXUSDT
+2025-10-28 20:20:20,818 - trading_bot - INFO - Response status: 200
+2025-10-28 20:20:20,818 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:20:20,819 - trading_bot - WARNING - No kline data for ATOMUSDT
+2025-10-28 20:20:20,819 - trading_bot - INFO - Недостаточно данных для ATOMUSDT
+2025-10-28 20:20:21,270 - trading_bot - INFO - Response status: 200
+2025-10-28 20:20:21,271 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:20:21,272 - trading_bot - WARNING - No kline data for ALGOUSDT
+2025-10-28 20:20:21,272 - trading_bot - INFO - Недостаточно данных для ALGOUSDT
+2025-10-28 20:20:21,676 - trading_bot - INFO - Response status: 200
+2025-10-28 20:20:21,676 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:20:21,679 - trading_bot - INFO - Retrieved 200 klines for NEARUSDT
+2025-10-28 20:20:21,696 - trading_bot - ERROR - Ошибка анализа NEARUSDT: too many values to unpack (expected 2)
+2025-10-28 20:20:21,696 - trading_bot - INFO - Производительность | Циклы: 2 | Сделки: 0 | Винрейт: 0.0% | Отклонено: 0 | Активные: 0 | Баланс: 9770.33 USDT
+2025-10-28 20:22:04,011 - trading_bot - INFO - Бот остановлен пользователем
+2025-10-28 20:22:10,998 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 20:22:10,999 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 20:22:10,999 - trading_bot - INFO - Getting account balance...
+2025-10-28 20:22:11,453 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:11,453 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:11,455 - trading_bot - INFO - Account balance: 9770.3320716 USDT
+2025-10-28 20:22:11,455 - trading_bot - INFO - Профессиональный торговый бот инициализирован с балансом: 9770.3320716 USDT
+2025-10-28 20:22:11,455 - trading_bot - INFO - 🚀 ПРОФЕССИОНАЛЬНЫЙ ТОРГОВЫЙ БOT ЗАПУЩЕН НА BYBIT TESTNET!
+2025-10-28 20:22:11,767 - trading_bot - INFO - Баланс: 9770.3320716 USDT
+2025-10-28 20:22:11,767 - trading_bot - INFO - Торговые пары: SOLUSDT, XRPUSDT, ADAUSDT, DOTUSDT, LINKUSDT, MATICUSDT, AVAXUSDT, ATOMUSDT, ALGOUSDT, NEARUSDT
+2025-10-28 20:22:11,768 - trading_bot - INFO - Запуск цикла #1 в 2025-10-28 20:22:11.768157
+2025-10-28 20:22:11,768 - trading_bot - INFO - Getting account balance...
+2025-10-28 20:22:12,178 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:12,179 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:12,179 - trading_bot - INFO - Account balance: 9770.3320716 USDT
+2025-10-28 20:22:12,583 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:12,583 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:12,587 - trading_bot - INFO - Retrieved 200 klines for SOLUSDT
+2025-10-28 20:22:12,996 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:12,997 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:12,999 - trading_bot - INFO - Retrieved 200 klines for XRPUSDT
+2025-10-28 20:22:13,401 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:13,401 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:13,798 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:13,798 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:13,800 - trading_bot - INFO - Symbol info for XRPUSDT: min_qty=0.1, qty_step=0.1, min_value=5.0
+2025-10-28 20:22:13,800 - trading_bot - INFO - Calculated quantity for XRPUSDT: 2.3 (value: 10.10 USDT)
+2025-10-28 20:22:13,800 - trading_bot - INFO - Placing order: Buy 2.3 XRPUSDT
+2025-10-28 20:22:14,211 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:14,211 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:14,212 - trading_bot - INFO - Order placed successfully: Buy 2.3 XRPUSDT (ID: 32ddc823-dae6-4332-9cda-fe82878d9f64)
+2025-10-28 20:22:14,534 - trading_bot - INFO - Позиция открыта: BUY 2.300000 XRPUSDT по цене 4.3906
+2025-10-28 20:22:14,837 - trading_bot - INFO - 🔄 ОТКРЫТА ПОЗИЦИЯ: BUY 2.3000 XRPUSDT | Цена: 4.3906 | TP: 4.5882 | SL: 4.3247
+2025-10-28 20:22:15,532 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:15,532 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:15,535 - trading_bot - INFO - Retrieved 200 klines for ADAUSDT
+2025-10-28 20:22:15,945 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:15,945 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:15,948 - trading_bot - INFO - Retrieved 200 klines for DOTUSDT
+2025-10-28 20:22:16,352 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:16,352 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:16,747 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:16,747 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:16,749 - trading_bot - INFO - Symbol info for DOTUSDT: min_qty=0.1, qty_step=0.1, min_value=5.0
+2025-10-28 20:22:16,749 - trading_bot - INFO - Calculated quantity for DOTUSDT: 2.4 (value: 10.12 USDT)
+2025-10-28 20:22:16,749 - trading_bot - INFO - Placing order: Sell 2.4 DOTUSDT
+2025-10-28 20:22:17,159 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:17,159 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:17,160 - trading_bot - INFO - Order placed successfully: Sell 2.4 DOTUSDT (ID: bf95f161-eef2-4acf-bf31-0ededed0a881)
+2025-10-28 20:22:17,457 - trading_bot - INFO - Позиция открыта: SELL 2.400000 DOTUSDT по цене 4.2164
+2025-10-28 20:22:17,768 - trading_bot - INFO - 🔄 ОТКРЫТА ПОЗИЦИЯ: SELL 2.4000 DOTUSDT | Цена: 4.2164 | TP: 4.0267 | SL: 4.2796
+2025-10-28 20:22:18,484 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:18,485 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:18,487 - trading_bot - INFO - Retrieved 200 klines for LINKUSDT
+2025-10-28 20:22:18,897 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:18,898 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:19,310 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:19,310 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:19,311 - trading_bot - INFO - Symbol info for LINKUSDT: min_qty=0.1, qty_step=0.1, min_value=5.0
+2025-10-28 20:22:19,312 - trading_bot - INFO - Calculated quantity for LINKUSDT: 1.2 (value: 10.33 USDT)
+2025-10-28 20:22:19,312 - trading_bot - INFO - Placing order: Sell 1.2 LINKUSDT
+2025-10-28 20:22:19,713 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:19,713 - trading_bot - ERROR - Bybit API error 30209: Failed to submit order(s).The order price is lower than the minimum selling price.
+2025-10-28 20:22:19,715 - trading_bot - ERROR - Order failed for LINKUSDT
+2025-10-28 20:22:20,409 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:20,410 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:20,411 - trading_bot - WARNING - No kline data for MATICUSDT
+2025-10-28 20:22:20,411 - trading_bot - INFO - Недостаточно данных для MATICUSDT
+2025-10-28 20:22:20,819 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:20,819 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:20,821 - trading_bot - WARNING - No kline data for AVAXUSDT
+2025-10-28 20:22:20,821 - trading_bot - INFO - Недостаточно данных для AVAXUSDT
+2025-10-28 20:22:21,230 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:21,230 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:21,231 - trading_bot - WARNING - No kline data for ATOMUSDT
+2025-10-28 20:22:21,231 - trading_bot - INFO - Недостаточно данных для ATOMUSDT
+2025-10-28 20:22:21,633 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:21,633 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:21,635 - trading_bot - WARNING - No kline data for ALGOUSDT
+2025-10-28 20:22:21,635 - trading_bot - INFO - Недостаточно данных для ALGOUSDT
+2025-10-28 20:22:22,044 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:22,044 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:22,046 - trading_bot - INFO - Retrieved 200 klines for NEARUSDT
+2025-10-28 20:22:22,448 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:22,448 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:22,873 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:22,873 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:22,874 - trading_bot - INFO - Symbol info for NEARUSDT: min_qty=0.1, qty_step=0.1, min_value=5.0
+2025-10-28 20:22:22,874 - trading_bot - INFO - Calculated quantity for NEARUSDT: 4.3 (value: 10.02 USDT)
+2025-10-28 20:22:22,874 - trading_bot - INFO - Placing order: Sell 4.3 NEARUSDT
+2025-10-28 20:22:23,267 - trading_bot - INFO - Response status: 200
+2025-10-28 20:22:23,268 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:22:23,269 - trading_bot - INFO - Order placed successfully: Sell 4.3 NEARUSDT (ID: be8c634b-634e-4503-9eef-1bd67cbb5e59)
+2025-10-28 20:22:23,553 - trading_bot - INFO - Позиция открыта: SELL 4.300000 NEARUSDT по цене 2.331
+2025-10-28 20:22:23,845 - trading_bot - INFO - 🔄 ОТКРЫТА ПОЗИЦИЯ: SELL 4.3000 NEARUSDT | Цена: 2.3310 | TP: 2.2261 | SL: 2.3660
+2025-10-28 20:22:24,147 - trading_bot - INFO - Производительность | Циклы: 1 | Сделки: 3 | Винрейт: 60.0% | Отклонено: 1 | Активные: 0 | Баланс: 9770.33 USDT
+2025-10-28 20:22:24,148 - trading_bot - INFO - Бот работает. Нажмите Ctrl+C для остановки.
+2025-10-28 20:27:24,148 - trading_bot - INFO - Запуск цикла #2 в 2025-10-28 20:27:24.148705
+2025-10-28 20:27:24,148 - trading_bot - INFO - Getting account balance...
+2025-10-28 20:27:24,593 - trading_bot - INFO - Response status: 200
+2025-10-28 20:27:24,593 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:27:24,594 - trading_bot - INFO - Account balance: 9769.44612461 USDT
+2025-10-28 20:27:25,013 - trading_bot - INFO - Response status: 200
+2025-10-28 20:27:25,014 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:27:25,016 - trading_bot - INFO - Retrieved 200 klines for SOLUSDT
+2025-10-28 20:27:25,426 - trading_bot - INFO - Response status: 200
+2025-10-28 20:27:25,426 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:27:25,428 - trading_bot - INFO - Retrieved 200 klines for ADAUSDT
+2025-10-28 20:27:25,835 - trading_bot - INFO - Response status: 200
+2025-10-28 20:27:25,835 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:27:25,839 - trading_bot - INFO - Retrieved 200 klines for LINKUSDT
+2025-10-28 20:27:26,261 - trading_bot - INFO - Response status: 200
+2025-10-28 20:27:26,262 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:27:26,263 - trading_bot - INFO - Calculated quantity for LINKUSDT: 1.2 (value: 10.33 USDT)
+2025-10-28 20:27:26,263 - trading_bot - INFO - Placing order: Sell 1.2 LINKUSDT
+2025-10-28 20:27:26,676 - trading_bot - INFO - Response status: 200
+2025-10-28 20:27:26,676 - trading_bot - ERROR - Bybit API error 30209: Failed to submit order(s).The order price is lower than the minimum selling price.
+2025-10-28 20:27:26,678 - trading_bot - ERROR - Order failed for LINKUSDT
+2025-10-28 20:27:27,437 - trading_bot - INFO - Response status: 200
+2025-10-28 20:27:27,438 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:27:27,439 - trading_bot - WARNING - No kline data for MATICUSDT
+2025-10-28 20:27:27,439 - trading_bot - INFO - Недостаточно данных для MATICUSDT
+2025-10-28 20:27:27,850 - trading_bot - INFO - Response status: 200
+2025-10-28 20:27:27,850 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:27:27,851 - trading_bot - WARNING - No kline data for AVAXUSDT
+2025-10-28 20:27:27,851 - trading_bot - INFO - Недостаточно данных для AVAXUSDT
+2025-10-28 20:27:28,261 - trading_bot - INFO - Response status: 200
+2025-10-28 20:27:28,261 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:27:28,263 - trading_bot - WARNING - No kline data for ATOMUSDT
+2025-10-28 20:27:28,263 - trading_bot - INFO - Недостаточно данных для ATOMUSDT
+2025-10-28 20:27:28,667 - trading_bot - INFO - Response status: 200
+2025-10-28 20:27:28,667 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:27:28,668 - trading_bot - WARNING - No kline data for ALGOUSDT
+2025-10-28 20:27:28,668 - trading_bot - INFO - Недостаточно данных для ALGOUSDT
+2025-10-28 20:27:28,668 - trading_bot - INFO - Производительность | Циклы: 2 | Сделки: 3 | Винрейт: 60.0% | Отклонено: 2 | Активные: 3 | Баланс: 9769.45 USDT
+2025-10-28 20:32:07,013 - trading_bot - INFO - Бот остановлен пользователем
+2025-10-28 20:32:13,366 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 20:32:13,366 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 20:32:13,366 - trading_bot - INFO - Getting account balance...
+2025-10-28 20:32:13,819 - trading_bot - INFO - Response status: 200
+2025-10-28 20:32:13,819 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:32:13,821 - trading_bot - INFO - Account balance: 9769.44612461 USDT
+2025-10-28 20:37:09,189 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 20:37:09,189 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 20:37:09,189 - trading_bot - INFO - Getting account balance...
+2025-10-28 20:37:09,635 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:09,635 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:09,636 - trading_bot - INFO - Account balance: 9769.44612461 USDT
+2025-10-28 20:37:09,636 - trading_bot - INFO - Профессиональный торговый бот инициализирован с балансом: 9769.44612461 USDT
+2025-10-28 20:37:09,637 - trading_bot - INFO - Testing API connection...
+2025-10-28 20:37:10,050 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:10,051 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:10,052 - trading_bot - INFO - API connection successful. Server time: 1761673029
+2025-10-28 20:37:10,052 - trading_bot - INFO - 🚀 ПРОФЕССИОНАЛЬНЫЙ ТОРГОВЫЙ БOT ЗАПУЩЕН НА BYBIT TESTNET!
+2025-10-28 20:37:10,352 - trading_bot - INFO - Баланс: 9769.44612461 USDT
+2025-10-28 20:37:10,352 - trading_bot - INFO - Торговые пары: SOLUSDT, XRPUSDT, ADAUSDT, DOTUSDT, LINKUSDT, MATICUSDT, AVAXUSDT, ATOMUSDT, ALGOUSDT, NEARUSDT
+2025-10-28 20:37:10,352 - trading_bot - INFO - Максимум позиций: 3
+2025-10-28 20:37:10,353 - trading_bot - INFO - Запуск цикла #1 в 2025-10-28 20:37:10.353097
+2025-10-28 20:37:10,353 - trading_bot - INFO - Getting account balance...
+2025-10-28 20:37:10,761 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:10,761 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:10,762 - trading_bot - INFO - Account balance: 9769.44612461 USDT
+2025-10-28 20:37:11,161 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:11,161 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:11,163 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:37:11,570 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:11,570 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:11,573 - trading_bot - INFO - Retrieved 200 klines for SOLUSDT
+2025-10-28 20:37:11,988 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:11,988 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:11,991 - trading_bot - INFO - Retrieved 200 klines for XRPUSDT
+2025-10-28 20:37:12,393 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:12,393 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:12,808 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:12,808 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:12,809 - trading_bot - INFO - Symbol info for XRPUSDT: min_qty=0.1, qty_step=0.1, min_value=5.0
+2025-10-28 20:37:12,809 - trading_bot - INFO - Calculated quantity for XRPUSDT: 1.7 (value: 10.10 USDT)
+2025-10-28 20:37:13,220 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:13,220 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:13,221 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:37:13,221 - trading_bot - INFO - Placing order: Buy 1.7 XRPUSDT (Market)
+2025-10-28 20:37:13,635 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:13,635 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:13,637 - trading_bot - INFO - Order placed successfully: Buy 1.7 XRPUSDT (ID: fe7eebab-9c43-4a82-9d52-adb5838b3482)
+2025-10-28 20:37:13,923 - trading_bot - INFO - Позиция открыта: BUY 1.7000 XRPUSDT по цене 5.9408
+2025-10-28 20:37:14,233 - trading_bot - INFO - 🔄 ОТКРЫТА ПОЗИЦИЯ: BUY 1.7000 XRPUSDT | Цена: 5.9408 | TP: 6.2081 | SL: 5.8517
+2025-10-28 20:37:14,954 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:14,954 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:14,957 - trading_bot - INFO - Retrieved 200 klines for ADAUSDT
+2025-10-28 20:37:15,362 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:15,362 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:15,774 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:15,775 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:15,776 - trading_bot - INFO - Symbol info for ADAUSDT: min_qty=1.0, qty_step=1.0, min_value=5.0
+2025-10-28 20:37:15,776 - trading_bot - INFO - Calculated quantity for ADAUSDT: 14.0 (value: 10.25 USDT)
+2025-10-28 20:37:16,190 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:16,190 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:16,192 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:37:16,192 - trading_bot - INFO - Позиция XRPUSDT закрыта на бирже
+2025-10-28 20:37:16,192 - trading_bot - INFO - Placing order: Sell 14.0 ADAUSDT (Market)
+2025-10-28 20:37:16,600 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:16,600 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:16,601 - trading_bot - INFO - Order placed successfully: Sell 14.0 ADAUSDT (ID: aa9ae72d-fe70-467d-8d7d-a4f10c6e52ef)
+2025-10-28 20:37:16,889 - trading_bot - INFO - Позиция открыта: SELL 14.0000 ADAUSDT по цене 0.7320
+2025-10-28 20:37:17,189 - trading_bot - INFO - 🔄 ОТКРЫТА ПОЗИЦИЯ: SELL 14.0000 ADAUSDT | Цена: 0.7320 | TP: 0.6991 | SL: 0.7430
+2025-10-28 20:37:17,889 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:17,889 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:17,892 - trading_bot - INFO - Retrieved 200 klines for DOTUSDT
+2025-10-28 20:37:18,327 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:18,327 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:18,740 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:18,740 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:18,742 - trading_bot - INFO - Symbol info for DOTUSDT: min_qty=0.1, qty_step=0.1, min_value=5.0
+2025-10-28 20:37:18,742 - trading_bot - INFO - Calculated quantity for DOTUSDT: 2.4 (value: 10.12 USDT)
+2025-10-28 20:37:19,155 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:19,155 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:19,157 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:37:19,157 - trading_bot - INFO - Позиция ADAUSDT закрыта на бирже
+2025-10-28 20:37:19,157 - trading_bot - INFO - Placing order: Sell 2.4 DOTUSDT (Market)
+2025-10-28 20:37:19,564 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:19,565 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:19,566 - trading_bot - INFO - Order placed successfully: Sell 2.4 DOTUSDT (ID: df0f43a1-078c-40cd-a54f-ad489c6610d4)
+2025-10-28 20:37:19,876 - trading_bot - INFO - Позиция открыта: SELL 2.4000 DOTUSDT по цене 4.2164
+2025-10-28 20:37:20,182 - trading_bot - INFO - 🔄 ОТКРЫТА ПОЗИЦИЯ: SELL 2.4000 DOTUSDT | Цена: 4.2164 | TP: 4.0267 | SL: 4.2796
+2025-10-28 20:37:20,881 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:20,881 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:20,883 - trading_bot - INFO - Retrieved 200 klines for LINKUSDT
+2025-10-28 20:37:21,284 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:21,285 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:21,703 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:21,703 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:21,704 - trading_bot - INFO - Symbol info for LINKUSDT: min_qty=0.1, qty_step=0.1, min_value=5.0
+2025-10-28 20:37:21,705 - trading_bot - INFO - Calculated quantity for LINKUSDT: 1.2 (value: 10.33 USDT)
+2025-10-28 20:37:22,108 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:22,108 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:22,109 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:37:22,109 - trading_bot - INFO - Позиция DOTUSDT закрыта на бирже
+2025-10-28 20:37:22,109 - trading_bot - INFO - Placing order: Sell 1.2 LINKUSDT (Market)
+2025-10-28 20:37:22,515 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:22,516 - trading_bot - ERROR - Bybit API error 30209: Failed to submit order(s).The order price is lower than the minimum selling price.
+2025-10-28 20:37:22,517 - trading_bot - ERROR - Order failed for LINKUSDT
+2025-10-28 20:37:23,240 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:23,240 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:23,242 - trading_bot - WARNING - No kline data for MATICUSDT
+2025-10-28 20:37:23,242 - trading_bot - INFO - Недостаточно данных для MATICUSDT
+2025-10-28 20:37:23,650 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:23,650 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:23,652 - trading_bot - WARNING - No kline data for AVAXUSDT
+2025-10-28 20:37:23,652 - trading_bot - INFO - Недостаточно данных для AVAXUSDT
+2025-10-28 20:37:24,062 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:24,062 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:24,063 - trading_bot - WARNING - No kline data for ATOMUSDT
+2025-10-28 20:37:24,063 - trading_bot - INFO - Недостаточно данных для ATOMUSDT
+2025-10-28 20:37:24,466 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:24,466 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:24,467 - trading_bot - WARNING - No kline data for ALGOUSDT
+2025-10-28 20:37:24,468 - trading_bot - INFO - Недостаточно данных для ALGOUSDT
+2025-10-28 20:37:24,872 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:24,873 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:24,875 - trading_bot - INFO - Retrieved 200 klines for NEARUSDT
+2025-10-28 20:37:25,282 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:25,282 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:25,690 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:25,691 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:25,692 - trading_bot - INFO - Symbol info for NEARUSDT: min_qty=0.1, qty_step=0.1, min_value=5.0
+2025-10-28 20:37:25,692 - trading_bot - INFO - Calculated quantity for NEARUSDT: 4.3 (value: 9.95 USDT)
+2025-10-28 20:37:26,138 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:26,138 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:26,140 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:37:26,140 - trading_bot - INFO - Placing order: Sell 4.3 NEARUSDT (Market)
+2025-10-28 20:37:26,548 - trading_bot - INFO - Response status: 200
+2025-10-28 20:37:26,548 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:37:26,549 - trading_bot - INFO - Order placed successfully: Sell 4.3 NEARUSDT (ID: ab7dec0b-ce73-4957-b409-a070e7e3dd84)
+2025-10-28 20:37:26,861 - trading_bot - INFO - Позиция открыта: SELL 4.3000 NEARUSDT по цене 2.3150
+2025-10-28 20:37:27,172 - trading_bot - INFO - 🔄 ОТКРЫТА ПОЗИЦИЯ: SELL 4.3000 NEARUSDT | Цена: 2.3150 | TP: 2.2108 | SL: 2.3497
+2025-10-28 20:37:27,461 - trading_bot - INFO - Производительность | Циклы: 1 | Сделки: 4 | Винрейт: 0.0% | Отклонено: 1 | Активные: 0 | Баланс: 9769.45 USDT
+2025-10-28 20:37:27,462 - trading_bot - INFO - Бот работает. Нажмите Ctrl+C для остановки.
+2025-10-28 20:42:27,463 - trading_bot - INFO - Запуск цикла #2 в 2025-10-28 20:42:27.463356
+2025-10-28 20:42:27,463 - trading_bot - INFO - Getting account balance...
+2025-10-28 20:42:27,948 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:27,948 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:27,949 - trading_bot - INFO - Account balance: 9769.43422239 USDT
+2025-10-28 20:42:28,356 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:28,357 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:28,358 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:42:28,358 - trading_bot - INFO - Позиция NEARUSDT закрыта на бирже
+2025-10-28 20:42:28,786 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:28,786 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:28,789 - trading_bot - INFO - Retrieved 200 klines for SOLUSDT
+2025-10-28 20:42:29,192 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:29,193 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:29,195 - trading_bot - INFO - Retrieved 200 klines for XRPUSDT
+2025-10-28 20:42:29,604 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:29,605 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:29,607 - trading_bot - INFO - Calculated quantity for XRPUSDT: 1.6 (value: 9.98 USDT)
+2025-10-28 20:42:30,058 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:30,059 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:30,060 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:42:30,060 - trading_bot - INFO - Placing order: Buy 1.6 XRPUSDT (Market)
+2025-10-28 20:42:30,456 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:30,456 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:30,458 - trading_bot - INFO - Order placed successfully: Buy 1.6 XRPUSDT (ID: a998a914-c1a4-4372-acf6-b3f5f74fcbe1)
+2025-10-28 20:42:30,823 - trading_bot - INFO - Позиция открыта: BUY 1.6000 XRPUSDT по цене 6.2378
+2025-10-28 20:42:31,130 - trading_bot - INFO - 🔄 ОТКРЫТА ПОЗИЦИЯ: BUY 1.6000 XRPUSDT | Цена: 6.2378 | TP: 6.5185 | SL: 6.1442
+2025-10-28 20:42:31,852 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:31,852 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:31,855 - trading_bot - INFO - Retrieved 200 klines for ADAUSDT
+2025-10-28 20:42:32,258 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:32,258 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:32,260 - trading_bot - INFO - Calculated quantity for ADAUSDT: 14.0 (value: 10.25 USDT)
+2025-10-28 20:42:32,671 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:32,672 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:32,673 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:42:32,673 - trading_bot - INFO - Позиция XRPUSDT закрыта на бирже
+2025-10-28 20:42:32,673 - trading_bot - INFO - Placing order: Sell 14.0 ADAUSDT (Market)
+2025-10-28 20:42:33,125 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:33,125 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:33,126 - trading_bot - INFO - Order placed successfully: Sell 14.0 ADAUSDT (ID: a5ec17e7-374b-471b-9f01-0a5f5589dda3)
+2025-10-28 20:42:33,468 - trading_bot - INFO - Позиция открыта: SELL 14.0000 ADAUSDT по цене 0.7320
+2025-10-28 20:42:33,791 - trading_bot - INFO - 🔄 ОТКРЫТА ПОЗИЦИЯ: SELL 14.0000 ADAUSDT | Цена: 0.7320 | TP: 0.6991 | SL: 0.7430
+2025-10-28 20:42:34,513 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:34,513 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:34,516 - trading_bot - INFO - Retrieved 200 klines for DOTUSDT
+2025-10-28 20:42:34,939 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:34,939 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:34,940 - trading_bot - INFO - Calculated quantity for DOTUSDT: 2.4 (value: 10.12 USDT)
+2025-10-28 20:42:35,341 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:35,341 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:35,342 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:42:35,342 - trading_bot - INFO - Позиция ADAUSDT закрыта на бирже
+2025-10-28 20:42:35,342 - trading_bot - INFO - Placing order: Sell 2.4 DOTUSDT (Market)
+2025-10-28 20:42:35,799 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:35,800 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:35,801 - trading_bot - INFO - Order placed successfully: Sell 2.4 DOTUSDT (ID: a1a6d1bb-4489-40a4-a270-58b5955612f6)
+2025-10-28 20:42:36,137 - trading_bot - INFO - Позиция открыта: SELL 2.4000 DOTUSDT по цене 4.2164
+2025-10-28 20:42:36,526 - trading_bot - INFO - 🔄 ОТКРЫТА ПОЗИЦИЯ: SELL 2.4000 DOTUSDT | Цена: 4.2164 | TP: 4.0267 | SL: 4.2796
+2025-10-28 20:42:37,312 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:37,312 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:37,315 - trading_bot - INFO - Retrieved 200 klines for LINKUSDT
+2025-10-28 20:42:37,729 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:37,730 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:37,731 - trading_bot - INFO - Calculated quantity for LINKUSDT: 1.2 (value: 10.33 USDT)
+2025-10-28 20:42:38,134 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:38,135 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:38,136 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:42:38,136 - trading_bot - INFO - Позиция DOTUSDT закрыта на бирже
+2025-10-28 20:42:38,136 - trading_bot - INFO - Placing order: Sell 1.2 LINKUSDT (Market)
+2025-10-28 20:42:38,538 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:38,539 - trading_bot - ERROR - Bybit API error 30209: Failed to submit order(s).The order price is lower than the minimum selling price.
+2025-10-28 20:42:38,540 - trading_bot - ERROR - Order failed for LINKUSDT
+2025-10-28 20:42:39,261 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:39,262 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:39,263 - trading_bot - WARNING - No kline data for MATICUSDT
+2025-10-28 20:42:39,263 - trading_bot - INFO - Недостаточно данных для MATICUSDT
+2025-10-28 20:42:39,667 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:39,668 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:39,669 - trading_bot - WARNING - No kline data for AVAXUSDT
+2025-10-28 20:42:39,669 - trading_bot - INFO - Недостаточно данных для AVAXUSDT
+2025-10-28 20:42:40,105 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:40,105 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:40,106 - trading_bot - WARNING - No kline data for ATOMUSDT
+2025-10-28 20:42:40,106 - trading_bot - INFO - Недостаточно данных для ATOMUSDT
+2025-10-28 20:42:40,521 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:40,521 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:40,522 - trading_bot - WARNING - No kline data for ALGOUSDT
+2025-10-28 20:42:40,522 - trading_bot - INFO - Недостаточно данных для ALGOUSDT
+2025-10-28 20:42:40,966 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:40,967 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:40,970 - trading_bot - INFO - Retrieved 200 klines for NEARUSDT
+2025-10-28 20:42:41,400 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:41,400 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:41,401 - trading_bot - INFO - Calculated quantity for NEARUSDT: 4.5 (value: 10.00 USDT)
+2025-10-28 20:42:41,815 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:41,816 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:42:41,817 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:42:41,817 - trading_bot - INFO - Placing order: Sell 4.5 NEARUSDT (Market)
+2025-10-28 20:42:42,221 - trading_bot - INFO - Response status: 200
+2025-10-28 20:42:42,221 - trading_bot - ERROR - Bybit API error 30209: Failed to submit order(s).The order price is lower than the minimum selling price.
+2025-10-28 20:42:42,222 - trading_bot - ERROR - Order failed for NEARUSDT
+2025-10-28 20:42:42,533 - trading_bot - INFO - Производительность | Циклы: 2 | Сделки: 7 | Винрейт: 0.0% | Отклонено: 3 | Активные: 0 | Баланс: 9769.43 USDT
+2025-10-28 20:47:42,535 - trading_bot - INFO - Запуск цикла #3 в 2025-10-28 20:47:42.535032
+2025-10-28 20:47:42,535 - trading_bot - INFO - Getting account balance...
+2025-10-28 20:47:43,027 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:43,027 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:43,028 - trading_bot - INFO - Account balance: 9765.47817544 USDT
+2025-10-28 20:47:43,430 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:43,430 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:43,431 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:47:43,864 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:43,864 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:43,867 - trading_bot - INFO - Retrieved 200 klines for SOLUSDT
+2025-10-28 20:47:44,278 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:44,278 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:44,281 - trading_bot - INFO - Retrieved 200 klines for XRPUSDT
+2025-10-28 20:47:44,686 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:44,687 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:44,688 - trading_bot - INFO - Calculated quantity for XRPUSDT: 1.5 (value: 9.75 USDT)
+2025-10-28 20:47:45,112 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:45,112 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:45,113 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:47:45,113 - trading_bot - INFO - Placing order: Buy 1.5 XRPUSDT (Market)
+2025-10-28 20:47:45,509 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:45,510 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:45,511 - trading_bot - INFO - Order placed successfully: Buy 1.5 XRPUSDT (ID: 195ccea5-cf23-411a-9d41-0294f6176695)
+2025-10-28 20:47:45,854 - trading_bot - INFO - Позиция открыта: BUY 1.5000 XRPUSDT по цене 6.5000
+2025-10-28 20:47:46,165 - trading_bot - INFO - 🔄 ОТКРЫТА ПОЗИЦИЯ: BUY 1.5000 XRPUSDT | Цена: 6.5000 | TP: 6.7925 | SL: 6.4025
+2025-10-28 20:47:46,931 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:46,931 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:46,934 - trading_bot - INFO - Retrieved 200 klines for ADAUSDT
+2025-10-28 20:47:47,401 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:47,402 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:47,403 - trading_bot - INFO - Calculated quantity for ADAUSDT: 14.0 (value: 10.25 USDT)
+2025-10-28 20:47:47,808 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:47,809 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:47,810 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:47:47,810 - trading_bot - INFO - Позиция XRPUSDT закрыта на бирже
+2025-10-28 20:47:47,810 - trading_bot - INFO - Placing order: Sell 14.0 ADAUSDT (Market)
+2025-10-28 20:47:48,264 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:48,264 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:48,265 - trading_bot - INFO - Order placed successfully: Sell 14.0 ADAUSDT (ID: 83757b57-1efd-4876-a2fb-86c7abd79643)
+2025-10-28 20:47:48,620 - trading_bot - INFO - Позиция открыта: SELL 14.0000 ADAUSDT по цене 0.7320
+2025-10-28 20:47:48,940 - trading_bot - INFO - 🔄 ОТКРЫТА ПОЗИЦИЯ: SELL 14.0000 ADAUSDT | Цена: 0.7320 | TP: 0.6991 | SL: 0.7430
+2025-10-28 20:47:49,637 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:49,638 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:49,640 - trading_bot - INFO - Retrieved 200 klines for DOTUSDT
+2025-10-28 20:47:50,069 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:50,069 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:50,071 - trading_bot - INFO - Calculated quantity for DOTUSDT: 2.4 (value: 10.12 USDT)
+2025-10-28 20:47:50,840 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:50,840 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:50,841 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:47:50,842 - trading_bot - INFO - Позиция ADAUSDT закрыта на бирже
+2025-10-28 20:47:50,842 - trading_bot - INFO - Placing order: Sell 2.4 DOTUSDT (Market)
+2025-10-28 20:47:51,280 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:51,280 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:51,281 - trading_bot - INFO - Order placed successfully: Sell 2.4 DOTUSDT (ID: 270bbb38-7b4c-4ddf-821e-26bace956a84)
+2025-10-28 20:47:51,630 - trading_bot - INFO - Позиция открыта: SELL 2.4000 DOTUSDT по цене 4.2164
+2025-10-28 20:47:51,937 - trading_bot - INFO - 🔄 ОТКРЫТА ПОЗИЦИЯ: SELL 2.4000 DOTUSDT | Цена: 4.2164 | TP: 4.0267 | SL: 4.2796
+2025-10-28 20:47:52,661 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:52,662 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:52,665 - trading_bot - INFO - Retrieved 200 klines for LINKUSDT
+2025-10-28 20:47:53,073 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:53,074 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:53,075 - trading_bot - INFO - Calculated quantity for LINKUSDT: 1.2 (value: 10.33 USDT)
+2025-10-28 20:47:53,482 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:53,482 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:53,484 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:47:53,484 - trading_bot - INFO - Позиция DOTUSDT закрыта на бирже
+2025-10-28 20:47:53,484 - trading_bot - INFO - Placing order: Sell 1.2 LINKUSDT (Market)
+2025-10-28 20:47:53,903 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:53,903 - trading_bot - ERROR - Bybit API error 30209: Failed to submit order(s).The order price is lower than the minimum selling price.
+2025-10-28 20:47:53,905 - trading_bot - ERROR - Order failed for LINKUSDT
+2025-10-28 20:47:54,643 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:54,643 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:54,644 - trading_bot - WARNING - No kline data for MATICUSDT
+2025-10-28 20:47:54,645 - trading_bot - INFO - Недостаточно данных для MATICUSDT
+2025-10-28 20:47:55,058 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:55,058 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:55,060 - trading_bot - WARNING - No kline data for AVAXUSDT
+2025-10-28 20:47:55,060 - trading_bot - INFO - Недостаточно данных для AVAXUSDT
+2025-10-28 20:47:55,465 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:55,465 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:55,466 - trading_bot - WARNING - No kline data for ATOMUSDT
+2025-10-28 20:47:55,466 - trading_bot - INFO - Недостаточно данных для ATOMUSDT
+2025-10-28 20:47:55,905 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:55,905 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:55,906 - trading_bot - WARNING - No kline data for ALGOUSDT
+2025-10-28 20:47:55,906 - trading_bot - INFO - Недостаточно данных для ALGOUSDT
+2025-10-28 20:47:56,330 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:56,330 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:56,333 - trading_bot - INFO - Retrieved 200 klines for NEARUSDT
+2025-10-28 20:47:56,746 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:56,746 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:56,747 - trading_bot - INFO - Calculated quantity for NEARUSDT: 4.2 (value: 10.03 USDT)
+2025-10-28 20:47:57,149 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:57,150 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:57,151 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:47:57,151 - trading_bot - INFO - Placing order: Sell 4.2 NEARUSDT (Market)
+2025-10-28 20:47:57,561 - trading_bot - INFO - Response status: 200
+2025-10-28 20:47:57,561 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:47:57,562 - trading_bot - INFO - Order placed successfully: Sell 4.2 NEARUSDT (ID: 0371bf24-e524-4351-9be1-dede3732a90d)
+2025-10-28 20:47:57,924 - trading_bot - INFO - Позиция открыта: SELL 4.2000 NEARUSDT по цене 2.3870
+2025-10-28 20:47:58,275 - trading_bot - INFO - 🔄 ОТКРЫТА ПОЗИЦИЯ: SELL 4.2000 NEARUSDT | Цена: 2.3870 | TP: 2.2796 | SL: 2.4228
+2025-10-28 20:47:58,585 - trading_bot - INFO - Производительность | Циклы: 3 | Сделки: 11 | Винрейт: 0.0% | Отклонено: 4 | Активные: 0 | Баланс: 9765.48 USDT
+2025-10-28 20:52:58,586 - trading_bot - INFO - Запуск цикла #4 в 2025-10-28 20:52:58.586040
+2025-10-28 20:52:58,586 - trading_bot - INFO - Getting account balance...
+2025-10-28 20:52:59,067 - trading_bot - INFO - Response status: 200
+2025-10-28 20:52:59,067 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:52:59,069 - trading_bot - INFO - Account balance: 9761.76500041 USDT
+2025-10-28 20:52:59,498 - trading_bot - INFO - Response status: 200
+2025-10-28 20:52:59,498 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:52:59,500 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:52:59,500 - trading_bot - INFO - Позиция NEARUSDT закрыта на бирже
+2025-10-28 20:52:59,931 - trading_bot - INFO - Response status: 200
+2025-10-28 20:52:59,931 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:52:59,934 - trading_bot - INFO - Retrieved 200 klines for SOLUSDT
+2025-10-28 20:53:00,371 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:00,371 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:00,374 - trading_bot - INFO - Retrieved 200 klines for XRPUSDT
+2025-10-28 20:53:00,779 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:00,779 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:00,780 - trading_bot - INFO - Calculated quantity for XRPUSDT: 1.5 (value: 9.75 USDT)
+2025-10-28 20:53:01,189 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:01,189 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:01,191 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:53:01,191 - trading_bot - INFO - Placing order: Buy 1.5 XRPUSDT (Market)
+2025-10-28 20:53:01,600 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:01,600 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:01,601 - trading_bot - INFO - Order placed successfully: Buy 1.5 XRPUSDT (ID: 857234da-1921-4558-9d4f-8ca481902179)
+2025-10-28 20:53:01,930 - trading_bot - INFO - Позиция открыта: BUY 1.5000 XRPUSDT по цене 6.5000
+2025-10-28 20:53:02,245 - trading_bot - INFO - 🔄 ОТКРЫТА ПОЗИЦИЯ: BUY 1.5000 XRPUSDT | Цена: 6.5000 | TP: 6.7925 | SL: 6.4025
+2025-10-28 20:53:02,982 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:02,983 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:02,985 - trading_bot - INFO - Retrieved 200 klines for ADAUSDT
+2025-10-28 20:53:03,390 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:03,390 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:03,392 - trading_bot - INFO - Calculated quantity for ADAUSDT: 14.0 (value: 10.25 USDT)
+2025-10-28 20:53:03,803 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:03,804 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:03,805 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:53:03,805 - trading_bot - INFO - Позиция XRPUSDT закрыта на бирже
+2025-10-28 20:53:03,805 - trading_bot - INFO - Placing order: Sell 14.0 ADAUSDT (Market)
+2025-10-28 20:53:04,211 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:04,212 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:04,213 - trading_bot - INFO - Order placed successfully: Sell 14.0 ADAUSDT (ID: 1f720da5-03c8-4e99-9b4e-a0f7db092cd6)
+2025-10-28 20:53:04,565 - trading_bot - INFO - Позиция открыта: SELL 14.0000 ADAUSDT по цене 0.7320
+2025-10-28 20:53:04,901 - trading_bot - INFO - 🔄 ОТКРЫТА ПОЗИЦИЯ: SELL 14.0000 ADAUSDT | Цена: 0.7320 | TP: 0.6991 | SL: 0.7430
+2025-10-28 20:53:05,623 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:05,624 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:05,626 - trading_bot - INFO - Retrieved 200 klines for DOTUSDT
+2025-10-28 20:53:06,077 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:06,077 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:06,079 - trading_bot - INFO - Calculated quantity for DOTUSDT: 2.4 (value: 10.12 USDT)
+2025-10-28 20:53:06,492 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:06,492 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:06,493 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:53:06,493 - trading_bot - INFO - Позиция ADAUSDT закрыта на бирже
+2025-10-28 20:53:06,493 - trading_bot - INFO - Placing order: Sell 2.4 DOTUSDT (Market)
+2025-10-28 20:53:06,898 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:06,898 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:06,899 - trading_bot - INFO - Order placed successfully: Sell 2.4 DOTUSDT (ID: abd86c83-3f0c-44b8-b0bd-16c6d200d266)
+2025-10-28 20:53:07,265 - trading_bot - INFO - Позиция открыта: SELL 2.4000 DOTUSDT по цене 4.2164
+2025-10-28 20:53:07,593 - trading_bot - INFO - 🔄 ОТКРЫТА ПОЗИЦИЯ: SELL 2.4000 DOTUSDT | Цена: 4.2164 | TP: 4.0267 | SL: 4.2796
+2025-10-28 20:53:08,363 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:08,363 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:08,366 - trading_bot - INFO - Retrieved 200 klines for LINKUSDT
+2025-10-28 20:53:08,809 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:08,809 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:08,810 - trading_bot - INFO - Calculated quantity for LINKUSDT: 1.2 (value: 10.33 USDT)
+2025-10-28 20:53:09,217 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:09,217 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:09,218 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:53:09,218 - trading_bot - INFO - Позиция DOTUSDT закрыта на бирже
+2025-10-28 20:53:09,218 - trading_bot - INFO - Placing order: Sell 1.2 LINKUSDT (Market)
+2025-10-28 20:53:09,628 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:09,628 - trading_bot - ERROR - Bybit API error 30209: Failed to submit order(s).The order price is lower than the minimum selling price.
+2025-10-28 20:53:09,629 - trading_bot - ERROR - Order failed for LINKUSDT
+2025-10-28 20:53:10,392 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:10,393 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:10,394 - trading_bot - WARNING - No kline data for MATICUSDT
+2025-10-28 20:53:10,394 - trading_bot - INFO - Недостаточно данных для MATICUSDT
+2025-10-28 20:53:10,830 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:10,830 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:10,831 - trading_bot - WARNING - No kline data for AVAXUSDT
+2025-10-28 20:53:10,831 - trading_bot - INFO - Недостаточно данных для AVAXUSDT
+2025-10-28 20:53:11,242 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:11,242 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:11,244 - trading_bot - WARNING - No kline data for ATOMUSDT
+2025-10-28 20:53:11,244 - trading_bot - INFO - Недостаточно данных для ATOMUSDT
+2025-10-28 20:53:11,685 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:11,685 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:11,686 - trading_bot - WARNING - No kline data for ALGOUSDT
+2025-10-28 20:53:11,687 - trading_bot - INFO - Недостаточно данных для ALGOUSDT
+2025-10-28 20:53:12,115 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:12,115 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:12,118 - trading_bot - INFO - Retrieved 200 klines for NEARUSDT
+2025-10-28 20:53:12,558 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:12,558 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:12,560 - trading_bot - INFO - Calculated quantity for NEARUSDT: 4.4 (value: 10.07 USDT)
+2025-10-28 20:53:12,965 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:12,966 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:12,967 - trading_bot - ERROR - Error getting positions: could not convert string to float: ''
+2025-10-28 20:53:12,967 - trading_bot - INFO - Placing order: Sell 4.4 NEARUSDT (Market)
+2025-10-28 20:53:13,365 - trading_bot - INFO - Response status: 200
+2025-10-28 20:53:13,366 - trading_bot - INFO - API request successful: OK
+2025-10-28 20:53:13,367 - trading_bot - INFO - Order placed successfully: Sell 4.4 NEARUSDT (ID: cc9e1e97-beb6-4413-91ef-9502e4bf8f46)
+2025-10-28 20:53:13,709 - trading_bot - INFO - Позиция открыта: SELL 4.4000 NEARUSDT по цене 2.2890
+2025-10-28 20:53:14,019 - trading_bot - INFO - 🔄 ОТКРЫТА ПОЗИЦИЯ: SELL 4.4000 NEARUSDT | Цена: 2.2890 | TP: 2.1860 | SL: 2.3233
+2025-10-28 20:53:14,323 - trading_bot - INFO - Производительность | Циклы: 4 | Сделки: 15 | Винрейт: 0.0% | Отклонено: 5 | Активные: 0 | Баланс: 9761.77 USDT
+2025-10-28 20:55:04,748 - trading_bot - INFO - Бот остановлен пользователем
+2025-10-28 21:00:55,894 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 21:00:55,895 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 21:00:55,895 - trading_bot - INFO - Getting account balance...
+2025-10-28 21:00:56,363 - trading_bot - INFO - Account balance: 9759.36638804 USDT
+2025-10-28 21:00:56,363 - trading_bot - INFO - Бот инициализирован с балансом: 9759.36638804 USDT
+2025-10-28 21:00:56,363 - trading_bot - INFO - Testing API connection...
+2025-10-28 21:00:56,767 - trading_bot - INFO - API connection successful. Server time: 1761674456
+2025-10-28 21:00:56,767 - trading_bot - INFO - 🚀 ТОРГОВЫЙ БОТ ЗАПУЩЕН
+2025-10-28 21:00:57,067 - trading_bot - INFO - Баланс: 9759.36638804 USDT
+2025-10-28 21:00:57,067 - trading_bot - INFO - Символы: SOLUSDT, XRPUSDT, ADAUSDT, DOTUSDT, NEARUSDT
+2025-10-28 21:00:57,068 - trading_bot - INFO - Цикл #1 в 2025-10-28 21:00:57.067975
+2025-10-28 21:00:57,068 - trading_bot - INFO - Getting account balance...
+2025-10-28 21:00:57,485 - trading_bot - INFO - Account balance: 9759.36638804 USDT
+2025-10-28 21:00:58,297 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 21:00:58,697 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 21:00:59,111 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 21:00:59,519 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 21:00:59,931 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 21:00:59,934 - trading_bot - INFO - СТАТИСТИКА | Циклы: 1 | Сделки: 0 | Активные: 0 | Баланс: 9759.37 USDT
+2025-10-28 21:00:59,935 - trading_bot - INFO - Бот работает. Ctrl+C для остановки.
+2025-10-28 21:02:20,999 - trading_bot - INFO - Бот остановлен

@@ -8,16 +8,51 @@ class PositionManager:
         self.logger = TradingLogger()
         self.active_positions = {}
     
-    def open_position(self, symbol, side, quantity, entry_price, stop_loss, take_profit):
-        """Открытие позиции с управлением рисками"""
+    def sync_positions(self):
+        """Упрощенная синхронизация позиций"""
         try:
-            # Проверяем, нет ли уже активной позиции
-            if symbol in self.active_positions:
-                self.logger.log(f"Позиция для {symbol} уже открыта", 'warning')
+            real_positions = self.client.get_open_positions()
+            real_symbols = {pos['symbol'] for pos in real_positions}
+            
+            # Удаляем позиции, которых нет на бирже
+            for symbol in list(self.active_positions.keys()):
+                if symbol not in real_symbols:
+                    self.logger.log(f"Позиция {symbol} закрыта на бирже", 'info')
+                    del self.active_positions[symbol]
+            
+        except Exception as e:
+            self.logger.log(f"Ошибка синхронизации позиций: {e}", 'error')
+    
+    def can_open_position(self, symbol):
+        """Проверка возможности открытия позиции"""
+        self.sync_positions()
+        
+        if len(self.active_positions) >= Config.MAX_POSITIONS:
+            return False, f"Достигнут лимит позиций ({Config.MAX_POSITIONS})"
+        
+        if symbol in self.active_positions:
+            return False, "Позиция уже открыта"
+            
+        return True, "OK"
+    
+    def open_position(self, symbol, side, quantity, entry_price, stop_loss, take_profit):
+        """Открытие позиции"""
+        try:
+            can_open, reason = self.can_open_position(symbol)
+            if not can_open:
                 return False
             
-            # Размещаем ордер
-            order = self.client.place_order(symbol, side, quantity)
+            # Используем лимитные ордера
+            order_type = "Limit"
+            price = None
+            
+            if Config.USE_LIMIT_ORDERS:
+                if side == "BUY":
+                    price = entry_price * (1 - Config.LIMIT_ORDER_PRICE_OFFSET)
+                else:
+                    price = entry_price * (1 + Config.LIMIT_ORDER_PRICE_OFFSET)
+            
+            order = self.client.place_order(symbol, side, quantity, order_type, price)
             
             if order:
                 position = {
@@ -32,7 +67,7 @@ class PositionManager:
                 }
                 
                 self.active_positions[symbol] = position
-                self.logger.log(f"Позиция открыта: {side} {quantity:.6f} {symbol} по цене {entry_price}", 'info', True)
+                self.logger.log(f"✅ ПОЗИЦИЯ ОТКРЫТА: {side} {quantity:.4f} {symbol}", 'info', True)
                 return True
             
             return False
@@ -41,69 +76,7 @@ class PositionManager:
             self.logger.log(f"Ошибка открытия позиции: {e}", 'error')
             return False
     
-    def check_position_health(self, symbol, current_price):
-        """Проверка здоровья позиции"""
-        if symbol not in self.active_positions:
-            return True
-        
-        position = self.active_positions[symbol]
-        entry_price = position['entry_price']
-        
-        # Расчет текущего PnL
-        if position['side'] == 'Buy':
-            pnl_pct = (current_price - entry_price) / entry_price
-        else:
-            pnl_pct = (entry_price - current_price) / entry_price
-        
-        # Логирование состояния позиции каждые 2%
-        if abs(pnl_pct) > 0.02 and abs(pnl_pct) % 0.02 < 0.005:
-            self.logger.log(f"Позиция {symbol}: PnL {pnl_pct:+.2%}", 'info')
-        
-        return True
-    
-    def close_position(self, symbol, reason=""):
-        """Закрытие позиции"""
-        try:
-            if symbol not in self.active_positions:
-                self.logger.log(f"Нет активной позиции для {symbol}", 'warning')
-                return False
-            
-            position = self.active_positions[symbol]
-            
-            # Определяем сторону для закрытия
-            close_side = "Sell" if position['side'] == "Buy" else "Buy"
-            
-            # Размещаем ордер на закрытие
-            order = self.client.place_order(
-                symbol, 
-                close_side, 
-                position['quantity']
-            )
-            
-            if order:
-                # Расчет PnL
-                current_price = self.client.get_current_price(symbol)
-                if current_price:
-                    if position['side'] == 'Buy':
-                        pnl = (current_price - position['entry_price']) * position['quantity']
-                    else:
-                        pnl = (position['entry_price'] - current_price) * position['quantity']
-                    
-                    self.logger.log(
-                        f"Позиция закрыта: {symbol} | PnL: {pnl:+.2f} USDT | Причина: {reason}",
-                        'info', 
-                        True
-                    )
-                
-                del self.active_positions[symbol]
-                return True
-            
-            return False
-            
-        except Exception as e:
-            self.logger.log(f"Ошибка закрытия позиции: {e}", 'error')
-            return False
-    
     def get_active_positions_count(self):
         """Получение количества активных позиций"""
+        self.sync_positions()
         return len(self.active_positions)

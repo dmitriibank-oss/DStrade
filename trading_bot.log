@@ -1,0 +1,983 @@
+2025-10-28 17:31:18,536 - trading_bot - INFO - Telegram bot initialized successfully
+2025-10-28 17:31:18,867 - trading_bot - INFO - Telegram bot initialized successfully
+2025-10-28 17:31:18,867 - trading_bot - INFO - Telegram bot initialized successfully
+2025-10-28 17:31:19,200 - trading_bot - INFO - Telegram bot initialized successfully
+2025-10-28 17:31:19,200 - trading_bot - INFO - Telegram bot initialized successfully
+2025-10-28 17:31:19,200 - trading_bot - INFO - Telegram bot initialized successfully
+2025-10-28 17:31:19,620 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:31:19,620 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:31:19,620 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:31:19,955 - trading_bot - INFO - Telegram bot initialized successfully
+2025-10-28 17:31:19,955 - trading_bot - INFO - Telegram bot initialized successfully
+2025-10-28 17:31:19,955 - trading_bot - INFO - Telegram bot initialized successfully
+2025-10-28 17:31:19,955 - trading_bot - INFO - Telegram bot initialized successfully
+2025-10-28 17:31:19,955 - trading_bot - INFO - Trading bot started successfully!
+2025-10-28 17:31:19,955 - trading_bot - INFO - Trading bot started successfully!
+2025-10-28 17:31:19,955 - trading_bot - INFO - Trading bot started successfully!
+2025-10-28 17:31:19,955 - trading_bot - INFO - Trading bot started successfully!
+2025-10-28 17:32:19,975 - trading_bot - INFO - Starting trading cycle...
+2025-10-28 17:32:19,975 - trading_bot - INFO - Starting trading cycle...
+2025-10-28 17:32:19,975 - trading_bot - INFO - Starting trading cycle...
+2025-10-28 17:32:19,975 - trading_bot - INFO - Starting trading cycle...
+2025-10-28 17:32:20,747 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:32:20,747 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:32:20,747 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:32:20,747 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:32:21,139 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:32:21,139 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:32:21,139 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:32:21,139 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:32:21,141 - trading_bot - WARNING - Not enough data for BTCUSDT
+2025-10-28 17:32:21,141 - trading_bot - WARNING - Not enough data for BTCUSDT
+2025-10-28 17:32:21,141 - trading_bot - WARNING - Not enough data for BTCUSDT
+2025-10-28 17:32:21,141 - trading_bot - WARNING - Not enough data for BTCUSDT
+2025-10-28 17:32:21,530 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:32:21,530 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:32:21,530 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:32:21,530 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:32:21,531 - trading_bot - WARNING - Not enough data for ETHUSDT
+2025-10-28 17:32:21,531 - trading_bot - WARNING - Not enough data for ETHUSDT
+2025-10-28 17:32:21,531 - trading_bot - WARNING - Not enough data for ETHUSDT
+2025-10-28 17:32:21,531 - trading_bot - WARNING - Not enough data for ETHUSDT
+2025-10-28 17:32:21,932 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:32:21,932 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:32:21,932 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:32:21,932 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:32:21,934 - trading_bot - WARNING - Not enough data for SOLUSDT
+2025-10-28 17:32:21,934 - trading_bot - WARNING - Not enough data for SOLUSDT
+2025-10-28 17:32:21,934 - trading_bot - WARNING - Not enough data for SOLUSDT
+2025-10-28 17:32:21,934 - trading_bot - WARNING - Not enough data for SOLUSDT
+2025-10-28 17:32:22,333 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:32:22,333 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:32:22,333 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:32:22,333 - trading_bot - ERROR - API request error: Expecting value: line 1 column 1 (char 0)
+2025-10-28 17:32:22,334 - trading_bot - WARNING - Not enough data for XRPUSDT
+2025-10-28 17:32:22,334 - trading_bot - WARNING - Not enough data for XRPUSDT
+2025-10-28 17:32:22,334 - trading_bot - WARNING - Not enough data for XRPUSDT
+2025-10-28 17:32:22,334 - trading_bot - WARNING - Not enough data for XRPUSDT
+2025-10-28 17:32:22,335 - trading_bot - INFO - Performance Stats: Total Trades: 0, Win Rate: 0.0%, Total PnL: 0.00 USDT, Current Balance: 100.00 USDT, Drawdown: 0.00%
+2025-10-28 17:32:22,335 - trading_bot - INFO - Performance Stats: Total Trades: 0, Win Rate: 0.0%, Total PnL: 0.00 USDT, Current Balance: 100.00 USDT, Drawdown: 0.00%
+2025-10-28 17:32:22,335 - trading_bot - INFO - Performance Stats: Total Trades: 0, Win Rate: 0.0%, Total PnL: 0.00 USDT, Current Balance: 100.00 USDT, Drawdown: 0.00%
+2025-10-28 17:32:22,335 - trading_bot - INFO - Performance Stats: Total Trades: 0, Win Rate: 0.0%, Total PnL: 0.00 USDT, Current Balance: 100.00 USDT, Drawdown: 0.00%
+2025-10-28 17:32:28,337 - trading_bot - INFO - Bot stopped by user
+2025-10-28 17:32:28,337 - trading_bot - INFO - Bot stopped by user
+2025-10-28 17:32:28,337 - trading_bot - INFO - Bot stopped by user
+2025-10-28 17:32:28,337 - trading_bot - INFO - Bot stopped by user
+2025-10-28 17:36:57,415 - trading_bot - INFO - Bybit client initialized
+2025-10-28 17:36:58,124 - trading_bot - ERROR - API error: Status 404, Response: Not Found
+2025-10-28 17:36:58,125 - trading_bot - WARNING - Could not retrieve balance, using initial balance
+2025-10-28 17:36:58,125 - trading_bot - INFO - Trading bot started successfully!
+2025-10-28 17:37:58,454 - trading_bot - INFO - Starting trading cycle...
+2025-10-28 17:37:58,912 - trading_bot - ERROR - API error: Status 404, Response: Not Found
+2025-10-28 17:37:58,913 - trading_bot - WARNING - Could not retrieve balance, using initial balance
+2025-10-28 17:37:59,336 - trading_bot - ERROR - API error: Status 404, Response: Not Found
+2025-10-28 17:37:59,338 - trading_bot - WARNING - Not enough data for BTCUSDT
+2025-10-28 17:37:59,765 - trading_bot - ERROR - API error: Status 404, Response: Not Found
+2025-10-28 17:37:59,766 - trading_bot - WARNING - Not enough data for ETHUSDT
+2025-10-28 17:38:00,178 - trading_bot - ERROR - API error: Status 404, Response: Not Found
+2025-10-28 17:38:00,179 - trading_bot - WARNING - Not enough data for SOLUSDT
+2025-10-28 17:38:00,586 - trading_bot - ERROR - API error: Status 404, Response: Not Found
+2025-10-28 17:38:00,588 - trading_bot - WARNING - Not enough data for XRPUSDT
+2025-10-28 17:38:00,588 - trading_bot - INFO - Performance Stats: Total Trades: 0, Win Rate: 0.0%, Total PnL: 0.00 USDT, Current Balance: 100.00 USDT, Drawdown: 0.00%
+2025-10-28 17:39:00,604 - trading_bot - INFO - Starting trading cycle...
+2025-10-28 17:39:01,074 - trading_bot - ERROR - API error: Status 404, Response: Not Found
+2025-10-28 17:39:01,075 - trading_bot - WARNING - Could not retrieve balance, using initial balance
+2025-10-28 17:39:01,480 - trading_bot - ERROR - API error: Status 404, Response: Not Found
+2025-10-28 17:39:01,481 - trading_bot - WARNING - Not enough data for BTCUSDT
+2025-10-28 17:39:01,878 - trading_bot - ERROR - API error: Status 404, Response: Not Found
+2025-10-28 17:39:01,880 - trading_bot - WARNING - Not enough data for ETHUSDT
+2025-10-28 17:39:02,299 - trading_bot - ERROR - API error: Status 404, Response: Not Found
+2025-10-28 17:39:02,301 - trading_bot - WARNING - Not enough data for SOLUSDT
+2025-10-28 17:39:02,705 - trading_bot - ERROR - API error: Status 404, Response: Not Found
+2025-10-28 17:39:02,707 - trading_bot - WARNING - Not enough data for XRPUSDT
+2025-10-28 17:39:02,707 - trading_bot - INFO - Performance Stats: Total Trades: 0, Win Rate: 0.0%, Total PnL: 0.00 USDT, Current Balance: 100.00 USDT, Drawdown: 0.00%
+2025-10-28 17:39:36,185 - trading_bot - INFO - Bot stopped by user
+2025-10-28 17:42:50,571 - trading_bot - INFO - === STARTING DIAGNOSTIC TEST ===
+2025-10-28 17:42:50,571 - trading_bot - INFO - Step 1: Creating Bybit client...
+2025-10-28 17:42:50,571 - trading_bot - INFO - Initializing Bybit client for TESTNET
+2025-10-28 17:42:50,571 - trading_bot - INFO - Base URL: https://api-testnet.bybit.com
+2025-10-28 17:42:50,571 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 17:42:50,572 - trading_bot - INFO - Step 2: Testing API connection...
+2025-10-28 17:42:50,572 - trading_bot - INFO - Testing API connection...
+2025-10-28 17:42:50,572 - trading_bot - INFO - Making GET request to: /v5/market/time
+2025-10-28 17:42:51,045 - trading_bot - INFO - Response status: 200
+2025-10-28 17:42:51,045 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:42:51,051 - trading_bot - INFO - Step 3: Testing balance retrieval...
+2025-10-28 17:42:51,051 - trading_bot - INFO - Getting account balance...
+2025-10-28 17:42:51,051 - trading_bot - INFO - Making GET request to: /v5/account/wallet-balance
+2025-10-28 17:42:51,462 - trading_bot - INFO - Response status: 200
+2025-10-28 17:42:51,462 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:42:51,463 - trading_bot - ERROR - Error getting balance: could not convert string to float: ''
+2025-10-28 17:42:51,464 - trading_bot - INFO - Balance result: 100
+2025-10-28 17:42:51,464 - trading_bot - INFO - Step 4: Testing price data...
+2025-10-28 17:42:51,464 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:42:51,872 - trading_bot - INFO - Response status: 200
+2025-10-28 17:42:51,872 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:42:51,873 - trading_bot - INFO - Current price for BTCUSDT: 1370000.0
+2025-10-28 17:42:51,874 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:42:52,279 - trading_bot - INFO - Response status: 200
+2025-10-28 17:42:52,280 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:42:52,281 - trading_bot - INFO - Current price for ETHUSDT: 199999.97
+2025-10-28 17:42:52,282 - trading_bot - INFO - Step 5: Testing historical data...
+2025-10-28 17:42:52,282 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:42:52,688 - trading_bot - INFO - Response status: 200
+2025-10-28 17:42:52,688 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:42:52,693 - trading_bot - WARNING - Not enough data for BTCUSDT: 5 rows
+2025-10-28 17:42:52,694 - trading_bot - INFO - === DIAGNOSTIC TEST COMPLETED ===
+2025-10-28 17:46:16,105 - trading_bot - INFO - === FINAL TEST ===
+2025-10-28 17:46:16,105 - trading_bot - INFO - Initializing Bybit client for TESTNET
+2025-10-28 17:46:16,106 - trading_bot - INFO - Base URL: https://api-testnet.bybit.com
+2025-10-28 17:46:16,106 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 17:46:16,106 - trading_bot - INFO - Testing API connection...
+2025-10-28 17:46:16,106 - trading_bot - INFO - Making GET request to: /v5/market/time
+2025-10-28 17:46:16,547 - trading_bot - INFO - Response status: 200
+2025-10-28 17:46:16,547 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:46:16,548 - trading_bot - INFO - [OK] API connection successful. Server time: 1761662776
+2025-10-28 17:46:16,548 - trading_bot - INFO - [OK] Connection test passed
+2025-10-28 17:46:16,548 - trading_bot - INFO - Getting account balance...
+2025-10-28 17:46:16,548 - trading_bot - INFO - Making GET request to: /v5/account/wallet-balance
+2025-10-28 17:46:16,963 - trading_bot - INFO - Response status: 200
+2025-10-28 17:46:16,964 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:46:16,965 - trading_bot - INFO - Account balance: 9772.00881186 USDT
+2025-10-28 17:46:16,965 - trading_bot - INFO - [OK] Balance: 9772.00881186 USDT
+2025-10-28 17:46:16,965 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:46:17,382 - trading_bot - INFO - Response status: 200
+2025-10-28 17:46:17,382 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:46:17,384 - trading_bot - INFO - Current price for BTCUSDT: 1370000.0
+2025-10-28 17:46:17,384 - trading_bot - INFO - [OK] BTCUSDT price: 1370000.0
+2025-10-28 17:46:17,384 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:46:17,812 - trading_bot - INFO - Response status: 200
+2025-10-28 17:46:17,812 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:46:17,814 - trading_bot - INFO - Current price for ETHUSDT: 199999.97
+2025-10-28 17:46:17,814 - trading_bot - INFO - [OK] ETHUSDT price: 199999.97
+2025-10-28 17:46:17,814 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:46:18,241 - trading_bot - INFO - Response status: 200
+2025-10-28 17:46:18,241 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:46:18,243 - trading_bot - INFO - Current price for SOLUSDT: 150.84
+2025-10-28 17:46:18,243 - trading_bot - INFO - [OK] SOLUSDT price: 150.84
+2025-10-28 17:46:18,243 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:46:18,661 - trading_bot - INFO - Response status: 200
+2025-10-28 17:46:18,662 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:46:18,663 - trading_bot - INFO - Current price for XRPUSDT: 4.4149
+2025-10-28 17:46:18,663 - trading_bot - INFO - [OK] XRPUSDT price: 4.4149
+2025-10-28 17:46:18,663 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:46:19,060 - trading_bot - INFO - Response status: 200
+2025-10-28 17:46:19,061 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:46:19,064 - trading_bot - INFO - Retrieved 200 klines for BTCUSDT
+2025-10-28 17:46:19,064 - trading_bot - INFO - [OK] Historical data: 200 rows
+2025-10-28 17:46:19,064 - trading_bot - INFO - [OK] All tests completed successfully! Bot is ready to run.
+2025-10-28 17:46:36,813 - trading_bot - INFO - Initializing Bybit client for TESTNET
+2025-10-28 17:46:36,813 - trading_bot - INFO - Base URL: https://api-testnet.bybit.com
+2025-10-28 17:46:36,813 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 17:46:36,813 - trading_bot - INFO - Testing API connection...
+2025-10-28 17:46:36,814 - trading_bot - INFO - Making GET request to: /v5/market/time
+2025-10-28 17:46:37,224 - trading_bot - INFO - Response status: 200
+2025-10-28 17:46:37,224 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:46:37,226 - trading_bot - INFO - [OK] API connection successful. Server time: 1761662797
+2025-10-28 17:46:37,226 - trading_bot - INFO - Getting account balance...
+2025-10-28 17:46:37,226 - trading_bot - INFO - Making GET request to: /v5/account/wallet-balance
+2025-10-28 17:46:37,637 - trading_bot - INFO - Response status: 200
+2025-10-28 17:46:37,637 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:46:37,639 - trading_bot - INFO - Account balance: 9772.00881186 USDT
+2025-10-28 17:46:37,639 - trading_bot - INFO - Trading bot initialized with balance: 9772.00881186 USDT
+2025-10-28 17:46:37,953 - trading_bot - INFO - Trading bot started successfully on BYBIT TESTNET!
+2025-10-28 17:46:38,257 - trading_bot - INFO - Starting trading cycle #1...
+2025-10-28 17:46:38,257 - trading_bot - INFO - Getting account balance...
+2025-10-28 17:46:38,258 - trading_bot - INFO - Making GET request to: /v5/account/wallet-balance
+2025-10-28 17:46:38,657 - trading_bot - INFO - Response status: 200
+2025-10-28 17:46:38,658 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:46:38,659 - trading_bot - INFO - Account balance: 9772.00881186 USDT
+2025-10-28 17:46:38,659 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:46:39,065 - trading_bot - INFO - Response status: 200
+2025-10-28 17:46:39,065 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:46:39,068 - trading_bot - INFO - Retrieved 200 klines for BTCUSDT
+2025-10-28 17:46:39,068 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:46:39,475 - trading_bot - INFO - Response status: 200
+2025-10-28 17:46:39,475 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:46:39,476 - trading_bot - INFO - Current price for BTCUSDT: 1370000.0
+2025-10-28 17:46:40,481 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:46:40,889 - trading_bot - INFO - Response status: 200
+2025-10-28 17:46:40,889 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:46:40,891 - trading_bot - INFO - Retrieved 200 klines for ETHUSDT
+2025-10-28 17:46:40,892 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:46:41,303 - trading_bot - INFO - Response status: 200
+2025-10-28 17:46:41,303 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:46:41,304 - trading_bot - INFO - Current price for ETHUSDT: 199999.97
+2025-10-28 17:46:42,308 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:46:42,726 - trading_bot - INFO - Response status: 200
+2025-10-28 17:46:42,726 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:46:42,729 - trading_bot - INFO - Retrieved 200 klines for SOLUSDT
+2025-10-28 17:46:42,729 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:46:43,137 - trading_bot - INFO - Response status: 200
+2025-10-28 17:46:43,137 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:46:43,138 - trading_bot - INFO - Current price for SOLUSDT: 150.84
+2025-10-28 17:46:44,142 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:46:44,555 - trading_bot - INFO - Response status: 200
+2025-10-28 17:46:44,555 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:46:44,558 - trading_bot - INFO - Retrieved 200 klines for XRPUSDT
+2025-10-28 17:46:44,558 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:46:44,958 - trading_bot - INFO - Response status: 200
+2025-10-28 17:46:44,958 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:46:44,959 - trading_bot - INFO - Current price for XRPUSDT: 4.4149
+2025-10-28 17:46:45,964 - trading_bot - INFO - Performance Stats: Cycles: 1, Total Trades: 0, Win Rate: 0.0%, Total PnL: 0.00 USDT, Current Balance: 9772.01 USDT, Drawdown: 0.00%
+2025-10-28 17:46:45,965 - trading_bot - INFO - Bot is running. Press Ctrl+C to stop.
+2025-10-28 17:48:38,998 - trading_bot - INFO - Starting trading cycle #2...
+2025-10-28 17:48:38,998 - trading_bot - INFO - Getting account balance...
+2025-10-28 17:48:38,998 - trading_bot - INFO - Making GET request to: /v5/account/wallet-balance
+2025-10-28 17:48:39,426 - trading_bot - INFO - Response status: 200
+2025-10-28 17:48:39,427 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:48:39,428 - trading_bot - INFO - Account balance: 9772.00881186 USDT
+2025-10-28 17:48:39,428 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:48:39,836 - trading_bot - INFO - Response status: 200
+2025-10-28 17:48:39,836 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:48:39,839 - trading_bot - INFO - Retrieved 200 klines for BTCUSDT
+2025-10-28 17:48:39,839 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:48:40,237 - trading_bot - INFO - Response status: 200
+2025-10-28 17:48:40,238 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:48:40,239 - trading_bot - INFO - Current price for BTCUSDT: 1370000.0
+2025-10-28 17:48:41,243 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:48:41,822 - trading_bot - INFO - Response status: 200
+2025-10-28 17:48:41,823 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:48:41,826 - trading_bot - INFO - Retrieved 200 klines for ETHUSDT
+2025-10-28 17:48:41,826 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:48:42,244 - trading_bot - INFO - Response status: 200
+2025-10-28 17:48:42,244 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:48:42,245 - trading_bot - INFO - Current price for ETHUSDT: 199999.97
+2025-10-28 17:48:43,250 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:48:43,652 - trading_bot - INFO - Response status: 200
+2025-10-28 17:48:43,653 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:48:43,656 - trading_bot - INFO - Retrieved 200 klines for SOLUSDT
+2025-10-28 17:48:43,656 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:48:44,116 - trading_bot - INFO - Response status: 200
+2025-10-28 17:48:44,116 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:48:44,118 - trading_bot - INFO - Current price for SOLUSDT: 150.84
+2025-10-28 17:48:45,121 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:48:45,519 - trading_bot - INFO - Response status: 200
+2025-10-28 17:48:45,519 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:48:45,521 - trading_bot - INFO - Retrieved 200 klines for XRPUSDT
+2025-10-28 17:48:45,522 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:48:45,947 - trading_bot - INFO - Response status: 200
+2025-10-28 17:48:45,947 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:48:45,948 - trading_bot - INFO - Current price for XRPUSDT: 4.4149
+2025-10-28 17:48:46,952 - trading_bot - INFO - Performance Stats: Cycles: 2, Total Trades: 0, Win Rate: 0.0%, Total PnL: 0.00 USDT, Current Balance: 9772.01 USDT, Drawdown: 0.00%
+2025-10-28 17:50:46,989 - trading_bot - INFO - Starting trading cycle #3...
+2025-10-28 17:50:46,989 - trading_bot - INFO - Getting account balance...
+2025-10-28 17:50:46,990 - trading_bot - INFO - Making GET request to: /v5/account/wallet-balance
+2025-10-28 17:50:47,466 - trading_bot - INFO - Response status: 200
+2025-10-28 17:50:47,467 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:50:47,468 - trading_bot - INFO - Account balance: 9772.00881186 USDT
+2025-10-28 17:50:47,468 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:50:47,925 - trading_bot - INFO - Response status: 200
+2025-10-28 17:50:47,925 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:50:47,928 - trading_bot - INFO - Retrieved 200 klines for BTCUSDT
+2025-10-28 17:50:47,928 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:50:48,339 - trading_bot - INFO - Response status: 200
+2025-10-28 17:50:48,340 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:50:48,341 - trading_bot - INFO - Current price for BTCUSDT: 1383700.0
+2025-10-28 17:50:49,345 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:50:49,781 - trading_bot - INFO - Response status: 200
+2025-10-28 17:50:49,781 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:50:49,784 - trading_bot - INFO - Retrieved 200 klines for ETHUSDT
+2025-10-28 17:50:49,784 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:50:50,191 - trading_bot - INFO - Response status: 200
+2025-10-28 17:50:50,192 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:50:50,192 - trading_bot - INFO - Current price for ETHUSDT: 199999.97
+2025-10-28 17:50:51,196 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:50:51,606 - trading_bot - INFO - Response status: 200
+2025-10-28 17:50:51,606 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:50:51,610 - trading_bot - INFO - Retrieved 200 klines for SOLUSDT
+2025-10-28 17:50:51,610 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:50:52,068 - trading_bot - INFO - Response status: 200
+2025-10-28 17:50:52,068 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:50:52,069 - trading_bot - INFO - Current price for SOLUSDT: 150.84
+2025-10-28 17:50:53,073 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:50:53,474 - trading_bot - INFO - Response status: 200
+2025-10-28 17:50:53,474 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:50:53,477 - trading_bot - INFO - Retrieved 200 klines for XRPUSDT
+2025-10-28 17:50:53,477 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:50:53,940 - trading_bot - INFO - Response status: 200
+2025-10-28 17:50:53,940 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:50:53,942 - trading_bot - INFO - Current price for XRPUSDT: 4.4149
+2025-10-28 17:50:54,946 - trading_bot - INFO - Performance Stats: Cycles: 3, Total Trades: 0, Win Rate: 0.0%, Total PnL: 0.00 USDT, Current Balance: 9772.01 USDT, Drawdown: 0.00%
+2025-10-28 17:52:54,983 - trading_bot - INFO - Starting trading cycle #4...
+2025-10-28 17:52:54,983 - trading_bot - INFO - Getting account balance...
+2025-10-28 17:52:54,984 - trading_bot - INFO - Making GET request to: /v5/account/wallet-balance
+2025-10-28 17:52:55,468 - trading_bot - INFO - Response status: 200
+2025-10-28 17:52:55,469 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:52:55,470 - trading_bot - INFO - Account balance: 9772.00881186 USDT
+2025-10-28 17:52:55,470 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:52:55,872 - trading_bot - INFO - Response status: 200
+2025-10-28 17:52:55,873 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:52:55,875 - trading_bot - INFO - Retrieved 200 klines for BTCUSDT
+2025-10-28 17:52:55,876 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:52:56,284 - trading_bot - INFO - Response status: 200
+2025-10-28 17:52:56,285 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:52:56,286 - trading_bot - INFO - Current price for BTCUSDT: 1370000.0
+2025-10-28 17:52:57,291 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:52:57,697 - trading_bot - INFO - Response status: 200
+2025-10-28 17:52:57,698 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:52:57,700 - trading_bot - INFO - Retrieved 200 klines for ETHUSDT
+2025-10-28 17:52:57,700 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:52:58,110 - trading_bot - INFO - Response status: 200
+2025-10-28 17:52:58,110 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:52:58,111 - trading_bot - INFO - Current price for ETHUSDT: 199999.97
+2025-10-28 17:52:59,114 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:52:59,551 - trading_bot - INFO - Response status: 200
+2025-10-28 17:52:59,552 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:52:59,554 - trading_bot - INFO - Retrieved 200 klines for SOLUSDT
+2025-10-28 17:52:59,554 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:52:59,985 - trading_bot - INFO - Response status: 200
+2025-10-28 17:52:59,985 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:52:59,986 - trading_bot - INFO - Current price for SOLUSDT: 150.84
+2025-10-28 17:53:00,990 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:53:01,400 - trading_bot - INFO - Response status: 200
+2025-10-28 17:53:01,400 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:53:01,402 - trading_bot - INFO - Retrieved 200 klines for XRPUSDT
+2025-10-28 17:53:01,403 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:53:01,814 - trading_bot - INFO - Response status: 200
+2025-10-28 17:53:01,814 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:53:01,815 - trading_bot - INFO - Current price for XRPUSDT: 4.4149
+2025-10-28 17:53:02,819 - trading_bot - INFO - Performance Stats: Cycles: 4, Total Trades: 0, Win Rate: 0.0%, Total PnL: 0.00 USDT, Current Balance: 9772.01 USDT, Drawdown: 0.00%
+2025-10-28 17:55:02,855 - trading_bot - INFO - Starting trading cycle #5...
+2025-10-28 17:55:02,855 - trading_bot - INFO - Getting account balance...
+2025-10-28 17:55:02,855 - trading_bot - INFO - Making GET request to: /v5/account/wallet-balance
+2025-10-28 17:55:03,342 - trading_bot - INFO - Response status: 200
+2025-10-28 17:55:03,342 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:55:03,344 - trading_bot - INFO - Account balance: 9772.00881186 USDT
+2025-10-28 17:55:03,344 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:55:03,752 - trading_bot - INFO - Response status: 200
+2025-10-28 17:55:03,752 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:55:03,754 - trading_bot - INFO - Retrieved 200 klines for BTCUSDT
+2025-10-28 17:55:03,754 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:55:04,168 - trading_bot - INFO - Response status: 200
+2025-10-28 17:55:04,168 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:55:04,169 - trading_bot - INFO - Current price for BTCUSDT: 1383700.0
+2025-10-28 17:55:05,173 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:55:05,702 - trading_bot - INFO - Response status: 200
+2025-10-28 17:55:05,703 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:55:05,705 - trading_bot - INFO - Retrieved 200 klines for ETHUSDT
+2025-10-28 17:55:05,705 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:55:06,123 - trading_bot - INFO - Response status: 200
+2025-10-28 17:55:06,123 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:55:06,125 - trading_bot - INFO - Current price for ETHUSDT: 199999.97
+2025-10-28 17:55:07,128 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:55:07,558 - trading_bot - INFO - Response status: 200
+2025-10-28 17:55:07,558 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:55:07,561 - trading_bot - INFO - Retrieved 200 klines for SOLUSDT
+2025-10-28 17:55:07,561 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:55:07,974 - trading_bot - INFO - Response status: 200
+2025-10-28 17:55:07,974 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:55:07,976 - trading_bot - INFO - Current price for SOLUSDT: 156.87
+2025-10-28 17:55:08,981 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:55:09,402 - trading_bot - INFO - Response status: 200
+2025-10-28 17:55:09,402 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:55:09,405 - trading_bot - INFO - Retrieved 200 klines for XRPUSDT
+2025-10-28 17:55:09,405 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:55:09,803 - trading_bot - INFO - Response status: 200
+2025-10-28 17:55:09,803 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:55:09,804 - trading_bot - INFO - Current price for XRPUSDT: 4.63
+2025-10-28 17:55:10,808 - trading_bot - INFO - Performance Stats: Cycles: 5, Total Trades: 0, Win Rate: 0.0%, Total PnL: 0.00 USDT, Current Balance: 9772.01 USDT, Drawdown: 0.00%
+2025-10-28 17:57:10,845 - trading_bot - INFO - Starting trading cycle #6...
+2025-10-28 17:57:10,845 - trading_bot - INFO - Getting account balance...
+2025-10-28 17:57:10,845 - trading_bot - INFO - Making GET request to: /v5/account/wallet-balance
+2025-10-28 17:57:11,283 - trading_bot - INFO - Response status: 200
+2025-10-28 17:57:11,283 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:57:11,284 - trading_bot - INFO - Account balance: 9772.00881186 USDT
+2025-10-28 17:57:11,284 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:57:11,698 - trading_bot - INFO - Response status: 200
+2025-10-28 17:57:11,699 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:57:11,703 - trading_bot - INFO - Retrieved 200 klines for BTCUSDT
+2025-10-28 17:57:11,703 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:57:12,194 - trading_bot - INFO - Response status: 200
+2025-10-28 17:57:12,194 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:57:12,196 - trading_bot - INFO - Current price for BTCUSDT: 1383700.0
+2025-10-28 17:57:13,200 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:57:13,817 - trading_bot - INFO - Response status: 200
+2025-10-28 17:57:13,817 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:57:13,820 - trading_bot - INFO - Retrieved 200 klines for ETHUSDT
+2025-10-28 17:57:13,820 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:57:14,230 - trading_bot - INFO - Response status: 200
+2025-10-28 17:57:14,230 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:57:14,231 - trading_bot - INFO - Current price for ETHUSDT: 199999.97
+2025-10-28 17:57:15,235 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:57:15,636 - trading_bot - INFO - Response status: 200
+2025-10-28 17:57:15,637 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:57:15,639 - trading_bot - INFO - Retrieved 200 klines for SOLUSDT
+2025-10-28 17:57:15,639 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:57:16,129 - trading_bot - INFO - Response status: 200
+2025-10-28 17:57:16,129 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:57:16,131 - trading_bot - INFO - Current price for SOLUSDT: 156.87
+2025-10-28 17:57:17,135 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 17:57:17,578 - trading_bot - INFO - Response status: 200
+2025-10-28 17:57:17,578 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:57:17,581 - trading_bot - INFO - Retrieved 200 klines for XRPUSDT
+2025-10-28 17:57:17,581 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:57:18,017 - trading_bot - INFO - Response status: 200
+2025-10-28 17:57:18,017 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:57:18,019 - trading_bot - INFO - Current price for XRPUSDT: 4.63
+2025-10-28 17:57:19,023 - trading_bot - INFO - Performance Stats: Cycles: 6, Total Trades: 0, Win Rate: 0.0%, Total PnL: 0.00 USDT, Current Balance: 9772.01 USDT, Drawdown: 0.00%
+2025-10-28 17:58:29,454 - trading_bot - INFO - Bot stopped by user
+2025-10-28 17:58:31,563 - trading_bot - INFO - === КОМПЛЕКСНАЯ ПРОВЕРКА КОНФИГУРАЦИИ ===
+2025-10-28 17:58:31,564 - trading_bot - INFO - 1. Проверка API ключей...
+2025-10-28 17:58:31,564 - trading_bot - INFO - [OK] API ключи настроены
+2025-10-28 17:58:31,564 - trading_bot - INFO - 2. Проверка подключения к Bybit Testnet...
+2025-10-28 17:58:31,564 - trading_bot - INFO - Initializing Bybit client for TESTNET
+2025-10-28 17:58:31,565 - trading_bot - INFO - Base URL: https://api-testnet.bybit.com
+2025-10-28 17:58:31,565 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 17:58:31,565 - trading_bot - INFO - Testing API connection...
+2025-10-28 17:58:31,565 - trading_bot - INFO - Making GET request to: /v5/market/time
+2025-10-28 17:58:32,003 - trading_bot - INFO - Response status: 200
+2025-10-28 17:58:32,004 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:58:32,005 - trading_bot - INFO - [OK] API connection successful. Server time: 1761663511
+2025-10-28 17:58:32,005 - trading_bot - INFO - [OK] Подключение к Bybit Testnet успешно
+2025-10-28 17:58:32,005 - trading_bot - INFO - 3. Проверка баланса...
+2025-10-28 17:58:32,005 - trading_bot - INFO - Getting account balance...
+2025-10-28 17:58:32,005 - trading_bot - INFO - Making GET request to: /v5/account/wallet-balance
+2025-10-28 17:58:32,414 - trading_bot - INFO - Response status: 200
+2025-10-28 17:58:32,414 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:58:32,415 - trading_bot - INFO - Account balance: 9772.00881186 USDT
+2025-10-28 17:58:32,415 - trading_bot - INFO - [OK] Текущий баланс: 9772.00881186 USDT
+2025-10-28 17:58:32,415 - trading_bot - INFO - 4. Проверка торговых пар...
+2025-10-28 17:58:32,416 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:58:32,821 - trading_bot - INFO - Response status: 200
+2025-10-28 17:58:32,821 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:58:32,822 - trading_bot - INFO - Current price for BTCUSDT: 1383700.0
+2025-10-28 17:58:32,823 - trading_bot - INFO - [OK] BTCUSDT: 1383700.0
+2025-10-28 17:58:32,823 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:58:33,227 - trading_bot - INFO - Response status: 200
+2025-10-28 17:58:33,228 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:58:33,229 - trading_bot - INFO - Current price for ETHUSDT: 199999.97
+2025-10-28 17:58:33,229 - trading_bot - INFO - [OK] ETHUSDT: 199999.97
+2025-10-28 17:58:33,229 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:58:33,637 - trading_bot - INFO - Response status: 200
+2025-10-28 17:58:33,637 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:58:33,639 - trading_bot - INFO - Current price for SOLUSDT: 156.87
+2025-10-28 17:58:33,639 - trading_bot - INFO - [OK] SOLUSDT: 156.87
+2025-10-28 17:58:33,639 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:58:34,046 - trading_bot - INFO - Response status: 200
+2025-10-28 17:58:34,046 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:58:34,048 - trading_bot - INFO - Current price for XRPUSDT: 4.63
+2025-10-28 17:58:34,048 - trading_bot - INFO - [OK] XRPUSDT: 4.63
+2025-10-28 17:58:34,048 - trading_bot - INFO - 5. Проверка параметров рисков...
+2025-10-28 17:58:34,048 - trading_bot - INFO - [OK] MAX_POSITION_SIZE: 10
+2025-10-28 17:58:34,048 - trading_bot - INFO - [OK] RISK_PER_TRADE: 0.02
+2025-10-28 17:58:34,048 - trading_bot - INFO - [OK] STOP_LOSS_PCT: 0.02
+2025-10-28 17:58:34,049 - trading_bot - INFO - [OK] TAKE_PROFIT_PCT: 0.04
+2025-10-28 17:58:34,049 - trading_bot - INFO - [OK] MAX_DRAWDOWN: 0.1
+2025-10-28 17:58:34,049 - trading_bot - INFO - 6. Проверка комиссий...
+2025-10-28 17:58:34,049 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 17:58:34,458 - trading_bot - INFO - Response status: 200
+2025-10-28 17:58:34,459 - trading_bot - INFO - API request successful: OK
+2025-10-28 17:58:34,460 - trading_bot - INFO - Current price for BTCUSDT: 1383700.0
+2025-10-28 18:04:03,352 - trading_bot - INFO - === КОМПЛЕКСНАЯ ПРОВЕРКА КОНФИГУРАЦИИ ===
+2025-10-28 18:04:03,353 - trading_bot - INFO - 1. Проверка API ключей...
+2025-10-28 18:04:03,353 - trading_bot - INFO - [OK] API ключи настроены
+2025-10-28 18:04:03,353 - trading_bot - INFO - 2. Проверка подключения к Bybit Testnet...
+2025-10-28 18:04:03,353 - trading_bot - INFO - Initializing Bybit client for TESTNET
+2025-10-28 18:04:03,353 - trading_bot - INFO - Base URL: https://api-testnet.bybit.com
+2025-10-28 18:04:03,353 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 18:04:03,353 - trading_bot - INFO - Testing API connection...
+2025-10-28 18:04:03,354 - trading_bot - INFO - Making GET request to: /v5/market/time
+2025-10-28 18:04:03,812 - trading_bot - INFO - Response status: 200
+2025-10-28 18:04:03,812 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:04:03,813 - trading_bot - INFO - [OK] API connection successful. Server time: 1761663843
+2025-10-28 18:04:03,813 - trading_bot - INFO - [OK] Подключение к Bybit Testnet успешно
+2025-10-28 18:04:03,814 - trading_bot - INFO - 3. Проверка баланса...
+2025-10-28 18:04:03,814 - trading_bot - INFO - Getting account balance...
+2025-10-28 18:04:03,814 - trading_bot - INFO - Making GET request to: /v5/account/wallet-balance
+2025-10-28 18:04:04,584 - trading_bot - INFO - Response status: 200
+2025-10-28 18:04:04,584 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:04:04,586 - trading_bot - INFO - Account balance: 9772.00881186 USDT
+2025-10-28 18:04:04,586 - trading_bot - INFO - [OK] Текущий баланс: 9772.00881186 USDT
+2025-10-28 18:04:04,586 - trading_bot - INFO - 4. Проверка торговых пар...
+2025-10-28 18:04:04,586 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 18:04:05,004 - trading_bot - INFO - Response status: 200
+2025-10-28 18:04:05,004 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:04:05,006 - trading_bot - INFO - Current price for BTCUSDT: 1383700.0
+2025-10-28 18:04:05,006 - trading_bot - INFO - [OK] BTCUSDT: 1383700.0
+2025-10-28 18:04:05,006 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 18:04:05,421 - trading_bot - INFO - Response status: 200
+2025-10-28 18:04:05,422 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:04:05,423 - trading_bot - INFO - Current price for ETHUSDT: 199999.97
+2025-10-28 18:04:05,423 - trading_bot - INFO - [OK] ETHUSDT: 199999.97
+2025-10-28 18:04:05,423 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 18:04:05,819 - trading_bot - INFO - Response status: 200
+2025-10-28 18:04:05,819 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:04:05,821 - trading_bot - INFO - Current price for SOLUSDT: 156.87
+2025-10-28 18:04:05,821 - trading_bot - INFO - [OK] SOLUSDT: 156.87
+2025-10-28 18:04:05,821 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 18:04:06,230 - trading_bot - INFO - Response status: 200
+2025-10-28 18:04:06,230 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:04:06,232 - trading_bot - INFO - Current price for XRPUSDT: 4.4813
+2025-10-28 18:04:06,232 - trading_bot - INFO - [OK] XRPUSDT: 4.4813
+2025-10-28 18:04:06,232 - trading_bot - INFO - 5. Проверка параметров рисков...
+2025-10-28 18:04:06,232 - trading_bot - INFO - [OK] MAX_POSITION_SIZE: 10
+2025-10-28 18:04:06,232 - trading_bot - INFO - [OK] RISK_PER_TRADE: 0.02
+2025-10-28 18:04:06,232 - trading_bot - INFO - [OK] STOP_LOSS_PCT: 0.02
+2025-10-28 18:04:06,233 - trading_bot - INFO - [OK] TAKE_PROFIT_PCT: 0.04
+2025-10-28 18:04:06,233 - trading_bot - INFO - [OK] MAX_DRAWDOWN: 0.1
+2025-10-28 18:04:06,233 - trading_bot - INFO - 6. Проверка комиссий...
+2025-10-28 18:04:06,233 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 18:04:06,640 - trading_bot - INFO - Response status: 200
+2025-10-28 18:04:06,640 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:04:06,642 - trading_bot - INFO - Current price for BTCUSDT: 1383700.0
+2025-10-28 18:04:06,642 - trading_bot - INFO - [INFO] Минимальный размер позиции: 1.0 USDT
+2025-10-28 18:04:06,642 - trading_bot - INFO - [INFO] Комиссия за сделку: 0.1%
+2025-10-28 18:04:06,642 - trading_bot - INFO - [INFO] Минимальная прибыль для покрытия комиссий: 0.2%
+2025-10-28 18:04:06,642 - trading_bot - INFO - [OK] Все проверки завершены успешно!
+2025-10-28 18:04:23,954 - trading_bot - INFO - Initializing Bybit client for TESTNET
+2025-10-28 18:04:23,954 - trading_bot - INFO - Base URL: https://api-testnet.bybit.com
+2025-10-28 18:04:23,954 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 18:04:23,954 - trading_bot - ERROR - Критическая ошибка запуска: name 'DataProcessor' is not defined
+2025-10-28 18:09:45,516 - trading_bot - INFO - Initializing Bybit client for TESTNET
+2025-10-28 18:09:45,516 - trading_bot - INFO - Base URL: https://api-testnet.bybit.com
+2025-10-28 18:09:45,516 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 18:09:45,516 - trading_bot - INFO - Testing API connection...
+2025-10-28 18:09:45,517 - trading_bot - INFO - Making GET request to: /v5/market/time
+2025-10-28 18:09:45,982 - trading_bot - INFO - Response status: 200
+2025-10-28 18:09:45,982 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:09:45,983 - trading_bot - INFO - [OK] API connection successful. Server time: 1761664185
+2025-10-28 18:09:45,983 - trading_bot - INFO - Getting account balance...
+2025-10-28 18:09:45,983 - trading_bot - INFO - Making GET request to: /v5/account/wallet-balance
+2025-10-28 18:09:46,391 - trading_bot - INFO - Response status: 200
+2025-10-28 18:09:46,391 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:09:46,392 - trading_bot - INFO - Account balance: 9772.00881186 USDT
+2025-10-28 18:09:46,392 - trading_bot - INFO - Упрощенный профессиональный бот инициализирован с балансом: 9772.00881186 USDT
+2025-10-28 18:09:46,691 - trading_bot - INFO - 🚀 УПРОЩЕННЫЙ ПРОФЕССИОНАЛЬНЫЙ БОТ ЗАПУЩЕН!
+2025-10-28 18:09:46,995 - trading_bot - INFO - Цикл #1 в 2025-10-28 18:09:46
+2025-10-28 18:09:46,996 - trading_bot - INFO - Getting account balance...
+2025-10-28 18:09:46,996 - trading_bot - INFO - Making GET request to: /v5/account/wallet-balance
+2025-10-28 18:09:47,408 - trading_bot - INFO - Response status: 200
+2025-10-28 18:09:47,408 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:09:47,409 - trading_bot - INFO - Account balance: 9772.00881186 USDT
+2025-10-28 18:09:47,409 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 18:09:47,820 - trading_bot - INFO - Response status: 200
+2025-10-28 18:09:47,820 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:09:47,821 - trading_bot - INFO - Current price for BTCUSDT: 1383700.0
+2025-10-28 18:09:47,821 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 18:09:48,216 - trading_bot - INFO - Response status: 200
+2025-10-28 18:09:48,216 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:09:48,219 - trading_bot - INFO - Retrieved 50 klines for BTCUSDT
+2025-10-28 18:09:48,220 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 18:09:48,628 - trading_bot - INFO - Response status: 200
+2025-10-28 18:09:48,629 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:09:48,630 - trading_bot - INFO - Current price for BTCUSDT: 1383700.0
+2025-10-28 18:09:48,630 - trading_bot - INFO - Сигнал для BTCUSDT: SELL по цене 1383700.0
+2025-10-28 18:09:48,630 - trading_bot - INFO - Placing order: SELL 0.0 BTCUSDT
+2025-10-28 18:09:48,630 - trading_bot - INFO - Making POST request to: /v5/order/create
+2025-10-28 18:09:49,049 - trading_bot - INFO - Response status: 200
+2025-10-28 18:09:49,049 - trading_bot - ERROR - Bybit API error 10001: Side invalid
+2025-10-28 18:09:49,050 - trading_bot - ERROR - [ERROR] Order failed for BTCUSDT
+2025-10-28 18:09:49,355 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 18:09:49,759 - trading_bot - INFO - Response status: 200
+2025-10-28 18:09:49,759 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:09:49,761 - trading_bot - INFO - Current price for ETHUSDT: 199999.97
+2025-10-28 18:09:49,761 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 18:09:50,168 - trading_bot - INFO - Response status: 200
+2025-10-28 18:09:50,168 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:09:50,170 - trading_bot - INFO - Retrieved 50 klines for ETHUSDT
+2025-10-28 18:09:50,171 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 18:09:50,574 - trading_bot - INFO - Response status: 200
+2025-10-28 18:09:50,574 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:09:50,576 - trading_bot - INFO - Current price for ETHUSDT: 199999.97
+2025-10-28 18:09:50,576 - trading_bot - INFO - Сигнал для ETHUSDT: SELL по цене 199999.97
+2025-10-28 18:09:50,576 - trading_bot - INFO - Placing order: SELL 0.0 ETHUSDT
+2025-10-28 18:09:50,576 - trading_bot - INFO - Making POST request to: /v5/order/create
+2025-10-28 18:09:50,984 - trading_bot - INFO - Response status: 200
+2025-10-28 18:09:50,984 - trading_bot - ERROR - Bybit API error 10001: Side invalid
+2025-10-28 18:09:50,986 - trading_bot - ERROR - [ERROR] Order failed for ETHUSDT
+2025-10-28 18:09:51,295 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 18:09:51,690 - trading_bot - INFO - Response status: 200
+2025-10-28 18:09:51,691 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:09:51,692 - trading_bot - INFO - Current price for SOLUSDT: 156.85
+2025-10-28 18:09:51,692 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 18:09:52,099 - trading_bot - INFO - Response status: 200
+2025-10-28 18:09:52,099 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:09:52,101 - trading_bot - INFO - Retrieved 50 klines for SOLUSDT
+2025-10-28 18:09:52,101 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 18:09:52,512 - trading_bot - INFO - Response status: 200
+2025-10-28 18:09:52,512 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:09:52,513 - trading_bot - INFO - Current price for SOLUSDT: 156.85
+2025-10-28 18:09:52,513 - trading_bot - INFO - Сигнал для SOLUSDT: SELL по цене 156.85
+2025-10-28 18:09:52,514 - trading_bot - INFO - Placing order: SELL 0.0064 SOLUSDT
+2025-10-28 18:09:52,514 - trading_bot - INFO - Making POST request to: /v5/order/create
+2025-10-28 18:09:52,918 - trading_bot - INFO - Response status: 200
+2025-10-28 18:09:52,918 - trading_bot - ERROR - Bybit API error 10001: Side invalid
+2025-10-28 18:09:52,920 - trading_bot - ERROR - [ERROR] Order failed for SOLUSDT
+2025-10-28 18:09:53,215 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 18:09:53,618 - trading_bot - INFO - Response status: 200
+2025-10-28 18:09:53,618 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:09:53,619 - trading_bot - INFO - Current price for XRPUSDT: 4.2159
+2025-10-28 18:09:53,619 - trading_bot - INFO - Making GET request to: /v5/market/kline
+2025-10-28 18:09:54,029 - trading_bot - INFO - Response status: 200
+2025-10-28 18:09:54,029 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:09:54,032 - trading_bot - INFO - Retrieved 50 klines for XRPUSDT
+2025-10-28 18:09:54,032 - trading_bot - INFO - Making GET request to: /v5/market/tickers
+2025-10-28 18:09:54,435 - trading_bot - INFO - Response status: 200
+2025-10-28 18:09:54,435 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:09:54,436 - trading_bot - INFO - Current price for XRPUSDT: 4.2159
+2025-10-28 18:09:54,437 - trading_bot - INFO - Сигнал для XRPUSDT: BUY по цене 4.2159
+2025-10-28 18:09:54,437 - trading_bot - INFO - Placing order: BUY 0.2372 XRPUSDT
+2025-10-28 18:09:54,437 - trading_bot - INFO - Making POST request to: /v5/order/create
+2025-10-28 18:09:54,853 - trading_bot - INFO - Response status: 200
+2025-10-28 18:09:54,853 - trading_bot - ERROR - Bybit API error 10001: Side invalid
+2025-10-28 18:09:54,854 - trading_bot - ERROR - [ERROR] Order failed for XRPUSDT
+2025-10-28 18:09:55,165 - trading_bot - INFO - Производительность | Циклы: 1 | Сделки: 0 | Баланс: 9772.01 USDT
+2025-10-28 18:09:55,165 - trading_bot - INFO - Бот работает. Нажмите Ctrl+C для остановки.
+2025-10-28 18:12:26,108 - trading_bot - INFO - Бот остановлен пользователем
+2025-10-28 18:19:49,566 - trading_bot - INFO - === ТЕСТИРОВАНИЕ РАЗМЕЩЕНИЯ ОРДЕРОВ ===
+2025-10-28 18:19:49,566 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 18:19:49,567 - trading_bot - INFO - Testing API connection...
+2025-10-28 18:19:50,007 - trading_bot - INFO - Response status: 200
+2025-10-28 18:19:50,007 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:19:50,008 - trading_bot - INFO - API connection successful. Server time: 1761664789
+2025-10-28 18:19:50,009 - trading_bot - INFO - Тестирование ордера для SOLUSDT...
+2025-10-28 18:19:50,009 - trading_bot - INFO - Пробуем BUY ордер для SOLUSDT
+2025-10-28 18:19:50,009 - trading_bot - INFO - Placing order: Buy 0.1 SOLUSDT
+2025-10-28 18:19:50,423 - trading_bot - INFO - Response status: 200
+2025-10-28 18:19:50,423 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:19:50,424 - trading_bot - INFO - Order placed successfully: Buy 0.1 SOLUSDT (ID: 68f72387-62fd-4e62-ace7-8ce45a431776)
+2025-10-28 18:19:50,713 - trading_bot - INFO - ✅ BUY ордер для SOLUSDT УСПЕШЕН!
+2025-10-28 18:19:52,713 - trading_bot - INFO - Пробуем SELL ордер для SOLUSDT
+2025-10-28 18:19:52,714 - trading_bot - INFO - Placing order: Sell 0.1 SOLUSDT
+2025-10-28 18:19:53,121 - trading_bot - INFO - Response status: 200
+2025-10-28 18:19:53,122 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:19:53,123 - trading_bot - INFO - Order placed successfully: Sell 0.1 SOLUSDT (ID: 34d4d2f8-6d97-4e03-b038-30e885355c48)
+2025-10-28 18:19:53,437 - trading_bot - INFO - ✅ SELL ордер для SOLUSDT УСПЕШЕН!
+2025-10-28 18:19:55,437 - trading_bot - INFO - Тестирование ордера для XRPUSDT...
+2025-10-28 18:19:55,437 - trading_bot - INFO - Пробуем BUY ордер для XRPUSDT
+2025-10-28 18:19:55,438 - trading_bot - INFO - Placing order: Buy 10.0 XRPUSDT
+2025-10-28 18:19:55,847 - trading_bot - INFO - Response status: 200
+2025-10-28 18:19:55,847 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:19:55,849 - trading_bot - INFO - Order placed successfully: Buy 10.0 XRPUSDT (ID: fd4b4950-31af-419e-b4d0-500c3c43e08f)
+2025-10-28 18:19:56,148 - trading_bot - INFO - ✅ BUY ордер для XRPUSDT УСПЕШЕН!
+2025-10-28 18:19:58,148 - trading_bot - INFO - Пробуем SELL ордер для XRPUSDT
+2025-10-28 18:19:58,148 - trading_bot - INFO - Placing order: Sell 10.0 XRPUSDT
+2025-10-28 18:19:58,563 - trading_bot - INFO - Response status: 200
+2025-10-28 18:19:58,563 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:19:58,564 - trading_bot - INFO - Order placed successfully: Sell 10.0 XRPUSDT (ID: d49045ff-0d7c-47dd-8d0e-94bb44b03bf6)
+2025-10-28 18:19:58,863 - trading_bot - INFO - ✅ SELL ордер для XRPUSDT УСПЕШЕН!
+2025-10-28 18:20:00,864 - trading_bot - INFO - === ТЕСТИРОВАНИЕ ЗАВЕРШЕНО ===
+2025-10-28 18:20:11,473 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 18:20:11,474 - trading_bot - INFO - Testing API connection...
+2025-10-28 18:20:11,869 - trading_bot - INFO - Response status: 200
+2025-10-28 18:20:11,869 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:20:11,871 - trading_bot - INFO - API connection successful. Server time: 1761664811
+2025-10-28 18:20:11,871 - trading_bot - INFO - Getting account balance...
+2025-10-28 18:20:12,270 - trading_bot - INFO - Response status: 200
+2025-10-28 18:20:12,270 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:20:12,272 - trading_bot - ERROR - Error getting balance: could not convert string to float: ''
+2025-10-28 18:20:12,272 - trading_bot - INFO - Упрощенный профессиональный бот инициализирован с балансом: 100 USDT
+2025-10-28 18:20:12,581 - trading_bot - INFO - 🚀 УПРОЩЕННЫЙ ПРОФЕССИОНАЛЬНЫЙ БОТ ЗАПУЩЕН!
+2025-10-28 18:20:12,881 - trading_bot - INFO - Тестовые символы: SOLUSDT, XRPUSDT
+2025-10-28 18:20:12,881 - trading_bot - INFO - Цикл #1 в 2025-10-28 18:20:12
+2025-10-28 18:20:12,881 - trading_bot - INFO - Getting account balance...
+2025-10-28 18:20:13,284 - trading_bot - INFO - Response status: 200
+2025-10-28 18:20:13,284 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:20:13,286 - trading_bot - ERROR - Error getting balance: could not convert string to float: ''
+2025-10-28 18:20:13,693 - trading_bot - INFO - Response status: 200
+2025-10-28 18:20:13,693 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:20:14,104 - trading_bot - INFO - Response status: 200
+2025-10-28 18:20:14,104 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:20:14,108 - trading_bot - INFO - Retrieved 50 klines for SOLUSDT
+2025-10-28 18:20:14,513 - trading_bot - INFO - Response status: 200
+2025-10-28 18:20:14,513 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:20:14,514 - trading_bot - INFO - Сигнал для SOLUSDT: SELL по цене 133.57
+2025-10-28 18:20:14,515 - trading_bot - INFO - Placing order: Sell 0.04 SOLUSDT
+2025-10-28 18:20:14,920 - trading_bot - INFO - Response status: 200
+2025-10-28 18:20:14,920 - trading_bot - ERROR - Bybit API error 10001: The number of contracts exceeds minimum limit allowed
+2025-10-28 18:20:14,922 - trading_bot - ERROR - Order failed for SOLUSDT
+2025-10-28 18:20:15,230 - trading_bot - WARNING - Тестовая сделка не удалась: SELL 0.040000 SOLUSDT
+2025-10-28 18:20:16,690 - trading_bot - INFO - Response status: 200
+2025-10-28 18:20:16,690 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:20:17,091 - trading_bot - INFO - Response status: 200
+2025-10-28 18:20:17,091 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:20:17,094 - trading_bot - INFO - Retrieved 50 klines for XRPUSDT
+2025-10-28 18:20:17,499 - trading_bot - INFO - Response status: 200
+2025-10-28 18:20:17,499 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:20:17,501 - trading_bot - INFO - Сигнал для XRPUSDT: SELL по цене 4.0833
+2025-10-28 18:20:17,501 - trading_bot - INFO - Placing order: Sell 1.2 XRPUSDT
+2025-10-28 18:20:17,916 - trading_bot - INFO - Response status: 200
+2025-10-28 18:20:17,916 - trading_bot - ERROR - Bybit API error 110094: Order does not meet minimum order value 5USDT
+2025-10-28 18:20:17,918 - trading_bot - ERROR - Order failed for XRPUSDT
+2025-10-28 18:20:18,226 - trading_bot - WARNING - Тестовая сделка не удалась: SELL 1.200000 XRPUSDT
+2025-10-28 18:20:19,227 - trading_bot - INFO - Производительность | Циклы: 1 | Сделки: 2 | Успешные: 0 | Неудачные: 2 | Успех: 0.0% | Баланс: 100.00 USDT
+2025-10-28 18:20:19,227 - trading_bot - INFO - Бот работает. Нажмите Ctrl+C для остановки.
+2025-10-28 18:21:41,897 - trading_bot - INFO - Бот остановлен пользователем
+2025-10-28 18:30:07,480 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 18:30:07,480 - trading_bot - INFO - Testing API connection...
+2025-10-28 18:30:07,972 - trading_bot - INFO - Response status: 200
+2025-10-28 18:30:07,973 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:30:07,974 - trading_bot - INFO - API connection successful. Server time: 1761665407
+2025-10-28 18:30:07,974 - trading_bot - INFO - Getting account balance...
+2025-10-28 18:30:08,381 - trading_bot - INFO - Response status: 200
+2025-10-28 18:30:08,381 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:30:08,383 - trading_bot - INFO - Account balance: 9770.5231985 USDT
+2025-10-28 18:30:08,384 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 18:30:08,795 - trading_bot - INFO - Response status: 200
+2025-10-28 18:30:08,795 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:30:08,796 - trading_bot - INFO - Symbol info for SOLUSDT: min_qty=0.1, qty_step=0.1, min_value=5.0
+2025-10-28 18:30:09,202 - trading_bot - INFO - Response status: 200
+2025-10-28 18:30:09,202 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:30:09,203 - trading_bot - INFO - Symbol info for XRPUSDT: min_qty=0.1, qty_step=0.1, min_value=5.0
+2025-10-28 18:30:09,606 - trading_bot - INFO - Response status: 200
+2025-10-28 18:30:09,606 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:30:09,608 - trading_bot - INFO - Calculated quantity for SOLUSDT: 0.1 (value: 13.36 USDT)
+2025-10-28 18:30:10,014 - trading_bot - INFO - Response status: 200
+2025-10-28 18:30:10,015 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:30:10,016 - trading_bot - INFO - Calculated quantity for XRPUSDT: 2.4000000000000004 (value: 10.12 USDT)
+2025-10-28 18:37:24,872 - trading_bot - INFO - === ТЕСТИРОВАНИЕ ИСПРАВЛЕНИЙ ===
+2025-10-28 18:37:24,873 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 18:37:24,873 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 18:37:24,873 - trading_bot - INFO - Тестирование округления...
+2025-10-28 18:37:24,873 - trading_bot - INFO - ✅ 2.4000000000000004 -> 2.4 (ожидалось: 2.4)
+2025-10-28 18:37:24,873 - trading_bot - INFO - ✅ 0.123456789 -> 0.123 (ожидалось: 0.123)
+2025-10-28 18:37:24,874 - trading_bot - INFO - ✅ 1.999999999 -> 2.0 (ожидалось: 2.0)
+2025-10-28 18:37:24,874 - trading_bot - INFO - Тестирование расчета позиций...
+2025-10-28 18:37:25,306 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:25,306 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:25,714 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:25,714 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:25,715 - trading_bot - INFO - Symbol info for SOLUSDT: min_qty=0.1, qty_step=0.1, min_value=5.0
+2025-10-28 18:37:25,715 - trading_bot - INFO - Calculated quantity for SOLUSDT: 0.1 (value: 13.36 USDT)
+2025-10-28 18:37:25,715 - trading_bot - INFO - ✅ SOLUSDT: расчет валиден - 0.1 (стоимость: 13.36 USDT)
+2025-10-28 18:37:26,126 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:26,126 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:26,538 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:26,538 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:26,539 - trading_bot - INFO - Symbol info for XRPUSDT: min_qty=0.1, qty_step=0.1, min_value=5.0
+2025-10-28 18:37:26,539 - trading_bot - INFO - Calculated quantity for XRPUSDT: 2.4 (value: 9.80 USDT)
+2025-10-28 18:37:26,539 - trading_bot - INFO - ✅ XRPUSDT: расчет валиден - 2.4 (стоимость: 9.80 USDT)
+2025-10-28 18:37:26,539 - trading_bot - INFO - === ТЕСТИРОВАНИЕ ЗАВЕРШЕНО ===
+2025-10-28 18:37:30,358 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 18:37:30,359 - trading_bot - INFO - Testing API connection...
+2025-10-28 18:37:32,258 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:32,258 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:32,259 - trading_bot - INFO - API connection successful. Server time: 1761665852
+2025-10-28 18:37:32,260 - trading_bot - INFO - Getting account balance...
+2025-10-28 18:37:32,872 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:32,872 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:32,874 - trading_bot - INFO - Account balance: 9770.5231985 USDT
+2025-10-28 18:37:32,874 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 18:37:33,286 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:33,286 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:33,287 - trading_bot - INFO - Symbol info for SOLUSDT: min_qty=0.1, qty_step=0.1, min_value=5.0
+2025-10-28 18:37:33,689 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:33,689 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:33,690 - trading_bot - INFO - Symbol info for XRPUSDT: min_qty=0.1, qty_step=0.1, min_value=5.0
+2025-10-28 18:37:34,103 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:34,103 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:34,105 - trading_bot - INFO - Calculated quantity for SOLUSDT: 0.1 (value: 13.36 USDT)
+2025-10-28 18:37:34,506 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:34,506 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:34,507 - trading_bot - INFO - Calculated quantity for XRPUSDT: 2.4 (value: 9.80 USDT)
+2025-10-28 18:37:38,690 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 18:37:38,690 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 18:37:38,691 - trading_bot - INFO - Testing API connection...
+2025-10-28 18:37:39,104 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:39,104 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:39,105 - trading_bot - INFO - API connection successful. Server time: 1761665858
+2025-10-28 18:37:39,105 - trading_bot - INFO - Getting account balance...
+2025-10-28 18:37:39,508 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:39,508 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:39,509 - trading_bot - INFO - Account balance: 9770.5231985 USDT
+2025-10-28 18:37:39,509 - trading_bot - INFO - Упрощенный профессиональный бот инициализирован с балансом: 9770.5231985 USDT
+2025-10-28 18:37:39,817 - trading_bot - INFO - 🚀 УПРОЩЕННЫЙ ПРОФЕССИОНАЛЬНЫЙ БОТ ЗАПУЩЕН!
+2025-10-28 18:37:40,122 - trading_bot - INFO - Тестовые символы: SOLUSDT, XRPUSDT
+2025-10-28 18:37:40,122 - trading_bot - INFO - Начальный баланс: 9770.5231985 USDT
+2025-10-28 18:37:40,123 - trading_bot - INFO - Цикл #1 в 2025-10-28 18:37:40
+2025-10-28 18:37:40,123 - trading_bot - INFO - Getting account balance...
+2025-10-28 18:37:40,531 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:40,532 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:40,532 - trading_bot - INFO - Account balance: 9770.5231985 USDT
+2025-10-28 18:37:40,934 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:40,934 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:41,332 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:41,332 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:41,335 - trading_bot - INFO - Retrieved 50 klines for SOLUSDT
+2025-10-28 18:37:41,744 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:41,744 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:41,746 - trading_bot - INFO - Сигнал для SOLUSDT: SELL по цене 133.57
+2025-10-28 18:37:42,151 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:42,152 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:42,153 - trading_bot - INFO - Symbol info for SOLUSDT: min_qty=0.1, qty_step=0.1, min_value=5.0
+2025-10-28 18:37:42,153 - trading_bot - INFO - Calculated quantity for SOLUSDT: 0.1 (value: 13.36 USDT)
+2025-10-28 18:37:42,153 - trading_bot - INFO - Рассчитана позиция для SOLUSDT: 0.1 (стоимость: 13.36 USDT)
+2025-10-28 18:37:42,153 - trading_bot - INFO - Placing order: Sell 0.1 SOLUSDT
+2025-10-28 18:37:42,570 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:42,571 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:42,572 - trading_bot - INFO - Order placed successfully: Sell 0.1 SOLUSDT (ID: e558d76f-d7cb-401a-b849-0d4a13b1fa13)
+2025-10-28 18:37:42,868 - trading_bot - INFO - Тестовая сделка выполнена: SELL 0.1 SOLUSDT (стоимость: 13.36 USDT)
+2025-10-28 18:37:45,576 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:45,576 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:45,986 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:45,986 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:45,989 - trading_bot - INFO - Retrieved 50 klines for XRPUSDT
+2025-10-28 18:37:46,407 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:46,407 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:46,408 - trading_bot - INFO - Сигнал для XRPUSDT: SELL по цене 4.0833
+2025-10-28 18:37:46,815 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:46,815 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:46,816 - trading_bot - INFO - Symbol info for XRPUSDT: min_qty=0.1, qty_step=0.1, min_value=5.0
+2025-10-28 18:37:46,816 - trading_bot - INFO - Calculated quantity for XRPUSDT: 2.4 (value: 9.80 USDT)
+2025-10-28 18:37:46,816 - trading_bot - INFO - Рассчитана позиция для XRPUSDT: 2.4 (стоимость: 9.80 USDT)
+2025-10-28 18:37:46,816 - trading_bot - INFO - Placing order: Sell 2.4 XRPUSDT
+2025-10-28 18:37:47,225 - trading_bot - INFO - Response status: 200
+2025-10-28 18:37:47,225 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:37:47,226 - trading_bot - INFO - Order placed successfully: Sell 2.4 XRPUSDT (ID: 576b8161-d1c0-4efd-86b7-de649ffc50fc)
+2025-10-28 18:37:47,534 - trading_bot - INFO - Тестовая сделка выполнена: SELL 2.4 XRPUSDT (стоимость: 9.80 USDT)
+2025-10-28 18:37:49,851 - trading_bot - INFO - Производительность | Циклы: 1 | Сделки: 2 | Успешные: 2 | Неудачные: 0 | Отклонено: 0 | Успех: 100.0% | Объем: 23.16 USDT | Баланс: 9770.52 USDT
+2025-10-28 18:37:49,851 - trading_bot - INFO - Бот работает. Нажмите Ctrl+C для остановки.
+2025-10-28 18:42:40,938 - trading_bot - INFO - Цикл #2 в 2025-10-28 18:42:40
+2025-10-28 18:42:40,938 - trading_bot - INFO - Getting account balance...
+2025-10-28 18:42:41,415 - trading_bot - INFO - Response status: 200
+2025-10-28 18:42:41,415 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:42:41,416 - trading_bot - INFO - Account balance: 9770.519291 USDT
+2025-10-28 18:42:41,818 - trading_bot - INFO - Response status: 200
+2025-10-28 18:42:41,818 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:42:42,221 - trading_bot - INFO - Response status: 200
+2025-10-28 18:42:42,221 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:42:42,224 - trading_bot - INFO - Retrieved 50 klines for SOLUSDT
+2025-10-28 18:42:42,636 - trading_bot - INFO - Response status: 200
+2025-10-28 18:42:42,636 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:42:42,637 - trading_bot - INFO - Сигнал для SOLUSDT: SELL по цене 133.57
+2025-10-28 18:42:42,637 - trading_bot - INFO - Calculated quantity for SOLUSDT: 0.1 (value: 13.36 USDT)
+2025-10-28 18:42:42,638 - trading_bot - INFO - Рассчитана позиция для SOLUSDT: 0.1 (стоимость: 13.36 USDT)
+2025-10-28 18:42:42,638 - trading_bot - INFO - Placing order: Sell 0.1 SOLUSDT
+2025-10-28 18:42:43,047 - trading_bot - INFO - Response status: 200
+2025-10-28 18:42:43,047 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:42:43,049 - trading_bot - INFO - Order placed successfully: Sell 0.1 SOLUSDT (ID: 5b2dda81-bcee-4efe-b124-8a76040a4781)
+2025-10-28 18:42:43,430 - trading_bot - INFO - Тестовая сделка выполнена: SELL 0.1 SOLUSDT (стоимость: 13.36 USDT)
+2025-10-28 18:42:46,163 - trading_bot - INFO - Response status: 200
+2025-10-28 18:42:46,164 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:42:46,613 - trading_bot - INFO - Response status: 200
+2025-10-28 18:42:46,613 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:42:46,616 - trading_bot - INFO - Retrieved 50 klines for XRPUSDT
+2025-10-28 18:42:47,015 - trading_bot - INFO - Response status: 200
+2025-10-28 18:42:47,015 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:42:47,016 - trading_bot - INFO - Сигнал для XRPUSDT: SELL по цене 4.0313
+2025-10-28 18:42:47,016 - trading_bot - INFO - Calculated quantity for XRPUSDT: 2.5 (value: 10.08 USDT)
+2025-10-28 18:42:47,016 - trading_bot - INFO - Рассчитана позиция для XRPUSDT: 2.5 (стоимость: 10.08 USDT)
+2025-10-28 18:42:47,017 - trading_bot - INFO - Placing order: Sell 2.5 XRPUSDT
+2025-10-28 18:42:47,421 - trading_bot - INFO - Response status: 200
+2025-10-28 18:42:47,421 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:42:47,422 - trading_bot - INFO - Order placed successfully: Sell 2.5 XRPUSDT (ID: 7ec99e35-633f-4dd0-adff-2e51cb5fbfe8)
+2025-10-28 18:42:47,788 - trading_bot - INFO - Тестовая сделка выполнена: SELL 2.5 XRPUSDT (стоимость: 10.08 USDT)
+2025-10-28 18:42:50,100 - trading_bot - INFO - Производительность | Циклы: 2 | Сделки: 4 | Успешные: 4 | Неудачные: 0 | Отклонено: 0 | Успех: 100.0% | Объем: 46.59 USDT | Баланс: 9770.52 USDT
+2025-10-28 18:47:50,187 - trading_bot - INFO - Цикл #3 в 2025-10-28 18:47:50
+2025-10-28 18:47:50,187 - trading_bot - INFO - Getting account balance...
+2025-10-28 18:47:50,653 - trading_bot - INFO - Response status: 200
+2025-10-28 18:47:50,653 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:47:50,654 - trading_bot - INFO - Account balance: 9770.51527179 USDT
+2025-10-28 18:47:51,065 - trading_bot - INFO - Response status: 200
+2025-10-28 18:47:51,065 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:47:51,467 - trading_bot - INFO - Response status: 200
+2025-10-28 18:47:51,467 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:47:51,470 - trading_bot - INFO - Retrieved 50 klines for SOLUSDT
+2025-10-28 18:47:51,908 - trading_bot - INFO - Response status: 200
+2025-10-28 18:47:51,909 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:47:51,910 - trading_bot - INFO - Сигнал для SOLUSDT: SELL по цене 128.39
+2025-10-28 18:47:51,910 - trading_bot - INFO - Calculated quantity for SOLUSDT: 0.1 (value: 12.84 USDT)
+2025-10-28 18:47:51,910 - trading_bot - INFO - Рассчитана позиция для SOLUSDT: 0.1 (стоимость: 12.84 USDT)
+2025-10-28 18:47:51,910 - trading_bot - INFO - Placing order: Sell 0.1 SOLUSDT
+2025-10-28 18:47:52,328 - trading_bot - INFO - Response status: 200
+2025-10-28 18:47:52,328 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:47:52,330 - trading_bot - INFO - Order placed successfully: Sell 0.1 SOLUSDT (ID: 96d95568-2b20-42f3-a593-78da843e2eaf)
+2025-10-28 18:47:52,692 - trading_bot - INFO - Тестовая сделка выполнена: SELL 0.1 SOLUSDT (стоимость: 12.84 USDT)
+2025-10-28 18:47:55,390 - trading_bot - INFO - Response status: 200
+2025-10-28 18:47:55,390 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:47:55,809 - trading_bot - INFO - Response status: 200
+2025-10-28 18:47:55,810 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:47:55,812 - trading_bot - INFO - Retrieved 50 klines for XRPUSDT
+2025-10-28 18:47:56,209 - trading_bot - INFO - Response status: 200
+2025-10-28 18:47:56,210 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:47:56,210 - trading_bot - INFO - Сигнал для XRPUSDT: SELL по цене 4.0169
+2025-10-28 18:47:56,211 - trading_bot - INFO - Calculated quantity for XRPUSDT: 2.5 (value: 10.04 USDT)
+2025-10-28 18:47:56,211 - trading_bot - INFO - Рассчитана позиция для XRPUSDT: 2.5 (стоимость: 10.04 USDT)
+2025-10-28 18:47:56,211 - trading_bot - INFO - Placing order: Sell 2.5 XRPUSDT
+2025-10-28 18:47:56,632 - trading_bot - INFO - Response status: 200
+2025-10-28 18:47:56,632 - trading_bot - INFO - API request successful: OK
+2025-10-28 18:47:56,633 - trading_bot - INFO - Order placed successfully: Sell 2.5 XRPUSDT (ID: 4e762cae-cdb2-48ba-80ca-c8277c103de9)
+2025-10-28 18:47:56,949 - trading_bot - INFO - Тестовая сделка выполнена: SELL 2.5 XRPUSDT (стоимость: 10.04 USDT)
+2025-10-28 18:47:59,245 - trading_bot - INFO - Производительность | Циклы: 3 | Сделки: 6 | Успешные: 6 | Неудачные: 0 | Отклонено: 0 | Успех: 100.0% | Объем: 69.47 USDT | Баланс: 9770.52 USDT
+2025-10-28 18:51:06,148 - trading_bot - INFO - Бот остановлен пользователем
+2025-10-28 19:40:25,714 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 19:40:25,715 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 19:40:25,715 - trading_bot - INFO - Testing API connection...
+2025-10-28 19:40:26,158 - trading_bot - INFO - Response status: 200
+2025-10-28 19:40:26,158 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:40:26,159 - trading_bot - INFO - API connection successful. Server time: 1761669625
+2025-10-28 19:40:26,159 - trading_bot - INFO - Getting account balance...
+2025-10-28 19:40:26,568 - trading_bot - INFO - Response status: 200
+2025-10-28 19:40:26,568 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:40:26,569 - trading_bot - INFO - Account balance: 9770.16066628 USDT
+2025-10-28 19:40:26,569 - trading_bot - INFO - Профессиональный торговый бот инициализирован с балансом: 9770.16066628 USDT
+2025-10-28 19:40:26,892 - trading_bot - INFO - 🚀 ПРОФЕССИОНАЛЬНЫЙ ТОРГОВЫЙ БOT ЗАПУЩЕН НА BYBIT TESTNET!
+2025-10-28 19:40:27,222 - trading_bot - INFO - Баланс: 9770.16066628 USDT
+2025-10-28 19:40:27,537 - trading_bot - INFO - Торговые пары: SOLUSDT, XRPUSDT
+2025-10-28 19:40:27,853 - trading_bot - INFO - Запуск цикла #1 в 2025-10-28 19:40:27
+2025-10-28 19:40:27,854 - trading_bot - INFO - Getting account balance...
+2025-10-28 19:40:28,274 - trading_bot - INFO - Response status: 200
+2025-10-28 19:40:28,274 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:40:28,275 - trading_bot - INFO - Account balance: 9770.16066628 USDT
+2025-10-28 19:40:28,692 - trading_bot - INFO - Response status: 200
+2025-10-28 19:40:28,692 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:40:28,695 - trading_bot - INFO - Retrieved 200 klines for SOLUSDT
+2025-10-28 19:40:29,112 - trading_bot - INFO - Response status: 200
+2025-10-28 19:40:29,112 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:40:29,520 - trading_bot - INFO - Response status: 200
+2025-10-28 19:40:29,520 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:40:29,523 - trading_bot - INFO - Retrieved 200 klines for XRPUSDT
+2025-10-28 19:40:29,933 - trading_bot - INFO - Response status: 200
+2025-10-28 19:40:29,934 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:40:29,935 - trading_bot - INFO - Производительность | Циклы: 1 | Сделки: 0 | Винрейт: 0.0% | Отклонено: 0 | Активные: 0 | Баланс: 9770.16 USDT
+2025-10-28 19:40:29,935 - trading_bot - INFO - Бот работает. Нажмите Ctrl+C для остановки.
+2025-10-28 19:43:27,988 - trading_bot - INFO - Запуск цикла #2 в 2025-10-28 19:43:27
+2025-10-28 19:43:27,988 - trading_bot - INFO - Getting account balance...
+2025-10-28 19:43:28,458 - trading_bot - INFO - Response status: 200
+2025-10-28 19:43:28,459 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:43:28,460 - trading_bot - INFO - Account balance: 9770.16066628 USDT
+2025-10-28 19:43:28,902 - trading_bot - INFO - Response status: 200
+2025-10-28 19:43:28,902 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:43:28,905 - trading_bot - INFO - Retrieved 200 klines for SOLUSDT
+2025-10-28 19:43:29,338 - trading_bot - INFO - Response status: 200
+2025-10-28 19:43:29,338 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:43:29,757 - trading_bot - INFO - Response status: 200
+2025-10-28 19:43:29,758 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:43:29,761 - trading_bot - INFO - Retrieved 200 klines for XRPUSDT
+2025-10-28 19:43:30,159 - trading_bot - INFO - Response status: 200
+2025-10-28 19:43:30,160 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:43:30,161 - trading_bot - INFO - Производительность | Циклы: 2 | Сделки: 0 | Винрейт: 0.0% | Отклонено: 0 | Активные: 0 | Баланс: 9770.16 USDT
+2025-10-28 19:46:30,211 - trading_bot - INFO - Запуск цикла #3 в 2025-10-28 19:46:30
+2025-10-28 19:46:30,211 - trading_bot - INFO - Getting account balance...
+2025-10-28 19:46:30,668 - trading_bot - INFO - Response status: 200
+2025-10-28 19:46:30,668 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:46:30,669 - trading_bot - INFO - Account balance: 9770.16066628 USDT
+2025-10-28 19:46:31,098 - trading_bot - INFO - Response status: 200
+2025-10-28 19:46:31,098 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:46:31,101 - trading_bot - INFO - Retrieved 200 klines for SOLUSDT
+2025-10-28 19:46:31,536 - trading_bot - INFO - Response status: 200
+2025-10-28 19:46:31,537 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:46:31,984 - trading_bot - INFO - Response status: 200
+2025-10-28 19:46:31,984 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:46:31,989 - trading_bot - INFO - Retrieved 200 klines for XRPUSDT
+2025-10-28 19:46:32,417 - trading_bot - INFO - Response status: 200
+2025-10-28 19:46:32,417 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:46:32,419 - trading_bot - INFO - Производительность | Циклы: 3 | Сделки: 0 | Винрейт: 0.0% | Отклонено: 0 | Активные: 0 | Баланс: 9770.16 USDT
+2025-10-28 19:49:32,468 - trading_bot - INFO - Запуск цикла #4 в 2025-10-28 19:49:32
+2025-10-28 19:49:32,468 - trading_bot - INFO - Getting account balance...
+2025-10-28 19:49:32,928 - trading_bot - INFO - Response status: 200
+2025-10-28 19:49:32,928 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:49:32,929 - trading_bot - INFO - Account balance: 9770.16066628 USDT
+2025-10-28 19:49:33,340 - trading_bot - INFO - Response status: 200
+2025-10-28 19:49:33,340 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:49:33,343 - trading_bot - INFO - Retrieved 200 klines for SOLUSDT
+2025-10-28 19:49:33,803 - trading_bot - INFO - Response status: 200
+2025-10-28 19:49:33,804 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:49:34,236 - trading_bot - INFO - Response status: 200
+2025-10-28 19:49:34,237 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:49:34,240 - trading_bot - INFO - Retrieved 200 klines for XRPUSDT
+2025-10-28 19:49:34,684 - trading_bot - INFO - Response status: 200
+2025-10-28 19:49:34,684 - trading_bot - INFO - API request successful: OK
+2025-10-28 19:49:34,686 - trading_bot - INFO - Производительность | Циклы: 4 | Сделки: 0 | Винрейт: 0.0% | Отклонено: 0 | Активные: 0 | Баланс: 9770.16 USDT
+2025-10-28 19:50:33,506 - trading_bot - INFO - Бот остановлен пользователем

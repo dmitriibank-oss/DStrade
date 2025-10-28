@@ -135,7 +135,7 @@ def main():
         bot.logger.log(f"Символы: {', '.join(Config.SYMBOLS)}", 'info')
         
         # Запускаем каждые 10 минут
-        schedule.every(10).minutes.do(bot.run_trading_cycle)
+        schedule.every(3).minutes.do(bot.run_trading_cycle)
         
         # Первый запуск
         bot.run_trading_cycle()

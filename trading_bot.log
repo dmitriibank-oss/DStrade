@@ -1700,3 +1700,420 @@
 2025-10-28 21:00:59,934 - trading_bot - INFO - СТАТИСТИКА | Циклы: 1 | Сделки: 0 | Активные: 0 | Баланс: 9759.37 USDT
 2025-10-28 21:00:59,935 - trading_bot - INFO - Бот работает. Ctrl+C для остановки.
 2025-10-28 21:02:20,999 - trading_bot - INFO - Бот остановлен
+2025-10-28 21:03:22,223 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 21:03:22,223 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 21:03:22,223 - trading_bot - INFO - Getting account balance...
+2025-10-28 21:03:22,726 - trading_bot - INFO - Account balance: 9758.13258669 USDT
+2025-10-28 21:03:22,727 - trading_bot - INFO - Бот инициализирован с балансом: 9758.13258669 USDT
+2025-10-28 21:03:22,727 - trading_bot - INFO - Testing API connection...
+2025-10-28 21:03:23,130 - trading_bot - INFO - API connection successful. Server time: 1761674602
+2025-10-28 21:03:23,130 - trading_bot - INFO - 🚀 ТОРГОВЫЙ БОТ ЗАПУЩЕН
+2025-10-28 21:03:23,447 - trading_bot - INFO - Баланс: 9758.13258669 USDT
+2025-10-28 21:03:23,448 - trading_bot - INFO - Символы: SOLUSDT, XRPUSDT, ADAUSDT, DOTUSDT, NEARUSDT
+2025-10-28 21:03:23,448 - trading_bot - INFO - Цикл #1 в 2025-10-28 21:03:23.448460
+2025-10-28 21:03:23,448 - trading_bot - INFO - Getting account balance...
+2025-10-28 21:03:23,881 - trading_bot - INFO - Account balance: 9758.13258669 USDT
+2025-10-28 21:03:24,719 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 21:03:25,136 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 21:03:25,568 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 21:03:25,991 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 21:03:26,416 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 21:03:26,420 - trading_bot - INFO - СТАТИСТИКА | Циклы: 1 | Сделки: 0 | Активные: 0 | Баланс: 9758.13 USDT
+2025-10-28 21:03:26,420 - trading_bot - INFO - Бот работает. Ctrl+C для остановки.
+2025-10-28 21:03:43,020 - trading_bot - INFO - Бот остановлен
+2025-10-28 21:04:09,567 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 21:04:09,567 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 21:04:09,568 - trading_bot - INFO - Getting account balance...
+2025-10-28 21:04:09,979 - trading_bot - INFO - Account balance: 9760.70193693 USDT
+2025-10-28 21:04:09,979 - trading_bot - INFO - Бот инициализирован с балансом: 9760.70193693 USDT
+2025-10-28 21:04:09,979 - trading_bot - INFO - Testing API connection...
+2025-10-28 21:04:10,376 - trading_bot - INFO - API connection successful. Server time: 1761674650
+2025-10-28 21:04:10,376 - trading_bot - INFO - 🚀 ТОРГОВЫЙ БОТ ЗАПУЩЕН
+2025-10-28 21:04:10,675 - trading_bot - INFO - Баланс: 9760.70193693 USDT
+2025-10-28 21:04:10,675 - trading_bot - INFO - Символы: SOLUSDT, XRPUSDT, ADAUSDT, DOTUSDT, NEARUSDT
+2025-10-28 21:04:10,676 - trading_bot - INFO - Цикл #1 в 2025-10-28 21:04:10.676524
+2025-10-28 21:04:10,676 - trading_bot - INFO - Getting account balance...
+2025-10-28 21:04:11,086 - trading_bot - INFO - Account balance: 9760.70193693 USDT
+2025-10-28 21:04:11,912 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 21:04:12,328 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 21:04:12,735 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 21:04:13,146 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 21:04:13,557 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 21:04:13,560 - trading_bot - INFO - СТАТИСТИКА | Циклы: 1 | Сделки: 0 | Активные: 0 | Баланс: 9760.70 USDT
+2025-10-28 21:04:13,560 - trading_bot - INFO - Бот работает. Ctrl+C для остановки.
+2025-10-28 21:14:13,563 - trading_bot - INFO - Цикл #2 в 2025-10-28 21:14:13.563806
+2025-10-28 21:14:13,564 - trading_bot - INFO - Getting account balance...
+2025-10-28 21:14:14,040 - trading_bot - INFO - Account balance: 9760.70193693 USDT
+2025-10-28 21:14:14,858 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 21:14:15,268 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 21:14:15,680 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 21:14:16,086 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 21:14:16,497 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 21:14:16,500 - trading_bot - INFO - СТАТИСТИКА | Циклы: 2 | Сделки: 0 | Активные: 0 | Баланс: 9760.70 USDT
+2025-10-28 21:22:25,092 - trading_bot - INFO - Бот остановлен
+2025-10-28 21:22:26,740 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 21:22:26,740 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 21:22:26,740 - trading_bot - INFO - Getting account balance...
+2025-10-28 21:22:27,208 - trading_bot - INFO - Account balance: 9760.70193693 USDT
+2025-10-28 21:22:27,208 - trading_bot - INFO - Бот инициализирован с балансом: 9760.70193693 USDT
+2025-10-28 21:22:27,208 - trading_bot - INFO - Testing API connection...
+2025-10-28 21:22:27,613 - trading_bot - INFO - API connection successful. Server time: 1761675747
+2025-10-28 21:22:27,613 - trading_bot - INFO - 🚀 ТОРГОВЫЙ БОТ ЗАПУЩЕН
+2025-10-28 21:22:27,930 - trading_bot - INFO - Баланс: 9760.70193693 USDT
+2025-10-28 21:22:27,930 - trading_bot - INFO - Символы: SOLUSDT, XRPUSDT, ADAUSDT, DOTUSDT, NEARUSDT
+2025-10-28 21:22:27,931 - trading_bot - INFO - Цикл #1 в 2025-10-28 21:22:27.931285
+2025-10-28 21:22:27,931 - trading_bot - INFO - Getting account balance...
+2025-10-28 21:22:28,337 - trading_bot - INFO - Account balance: 9760.70193693 USDT
+2025-10-28 21:22:29,156 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 21:22:29,567 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 21:22:30,001 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 21:22:30,525 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 21:22:30,931 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 21:22:30,935 - trading_bot - INFO - СТАТИСТИКА | Циклы: 1 | Сделки: 0 | Активные: 0 | Баланс: 9760.70 USDT
+2025-10-28 21:22:30,935 - trading_bot - INFO - Бот работает. Ctrl+C для остановки.
+2025-10-28 21:25:30,936 - trading_bot - INFO - Цикл #2 в 2025-10-28 21:25:30.936760
+2025-10-28 21:25:30,937 - trading_bot - INFO - Getting account balance...
+2025-10-28 21:25:31,410 - trading_bot - INFO - Account balance: 9760.70193693 USDT
+2025-10-28 21:25:32,221 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 21:25:32,710 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 21:25:33,173 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 21:25:33,630 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 21:25:34,057 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 21:25:34,060 - trading_bot - INFO - СТАТИСТИКА | Циклы: 2 | Сделки: 0 | Активные: 0 | Баланс: 9760.70 USDT
+2025-10-28 21:28:34,061 - trading_bot - INFO - Цикл #3 в 2025-10-28 21:28:34.061908
+2025-10-28 21:28:34,062 - trading_bot - INFO - Getting account balance...
+2025-10-28 21:28:34,524 - trading_bot - INFO - Account balance: 9760.70193693 USDT
+2025-10-28 21:28:35,417 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 21:28:35,860 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 21:28:36,285 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 21:28:36,704 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 21:28:37,168 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 21:28:37,172 - trading_bot - INFO - СТАТИСТИКА | Циклы: 3 | Сделки: 0 | Активные: 0 | Баланс: 9760.70 USDT
+2025-10-28 21:31:37,174 - trading_bot - INFO - Цикл #4 в 2025-10-28 21:31:37.174093
+2025-10-28 21:31:37,174 - trading_bot - INFO - Getting account balance...
+2025-10-28 21:31:37,676 - trading_bot - INFO - Account balance: 9760.70193693 USDT
+2025-10-28 21:31:38,543 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 21:31:38,982 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 21:31:39,419 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 21:31:39,917 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 21:31:40,375 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 21:31:40,380 - trading_bot - INFO - СТАТИСТИКА | Циклы: 4 | Сделки: 0 | Активные: 0 | Баланс: 9760.70 USDT
+2025-10-28 21:34:40,381 - trading_bot - INFO - Цикл #5 в 2025-10-28 21:34:40.381590
+2025-10-28 21:34:40,381 - trading_bot - INFO - Getting account balance...
+2025-10-28 21:34:40,874 - trading_bot - INFO - Account balance: 9760.70193693 USDT
+2025-10-28 21:34:41,738 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 21:34:42,211 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 21:34:42,659 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 21:34:43,129 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 21:34:43,562 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 21:34:43,566 - trading_bot - INFO - СТАТИСТИКА | Циклы: 5 | Сделки: 0 | Активные: 0 | Баланс: 9760.70 USDT
+2025-10-28 21:37:43,567 - trading_bot - INFO - Цикл #6 в 2025-10-28 21:37:43.567799
+2025-10-28 21:37:43,568 - trading_bot - INFO - Getting account balance...
+2025-10-28 21:37:44,094 - trading_bot - INFO - Account balance: 9760.70193693 USDT
+2025-10-28 21:37:44,965 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 21:37:45,408 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 21:37:45,841 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 21:37:46,280 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 21:37:46,740 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 21:37:46,745 - trading_bot - INFO - СТАТИСТИКА | Циклы: 6 | Сделки: 0 | Активные: 0 | Баланс: 9760.70 USDT
+2025-10-28 21:40:46,747 - trading_bot - INFO - Цикл #7 в 2025-10-28 21:40:46.747786
+2025-10-28 21:40:46,748 - trading_bot - INFO - Getting account balance...
+2025-10-28 21:40:47,274 - trading_bot - INFO - Account balance: 9760.70193693 USDT
+2025-10-28 21:40:48,150 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 21:40:48,565 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 21:40:48,991 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 21:40:49,423 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 21:40:49,856 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 21:40:49,860 - trading_bot - INFO - СТАТИСТИКА | Циклы: 7 | Сделки: 0 | Активные: 0 | Баланс: 9760.70 USDT
+2025-10-28 21:43:49,862 - trading_bot - INFO - Цикл #8 в 2025-10-28 21:43:49.862625
+2025-10-28 21:43:49,862 - trading_bot - INFO - Getting account balance...
+2025-10-28 21:43:50,372 - trading_bot - INFO - Account balance: 9760.70193693 USDT
+2025-10-28 21:43:51,206 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 21:43:51,642 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 21:43:52,067 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 21:43:52,491 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 21:43:52,952 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 21:43:52,956 - trading_bot - INFO - СТАТИСТИКА | Циклы: 8 | Сделки: 0 | Активные: 0 | Баланс: 9760.70 USDT
+2025-10-28 21:46:52,957 - trading_bot - INFO - Цикл #9 в 2025-10-28 21:46:52.957488
+2025-10-28 21:46:52,957 - trading_bot - INFO - Getting account balance...
+2025-10-28 21:46:53,431 - trading_bot - INFO - Account balance: 9760.70193693 USDT
+2025-10-28 21:46:54,287 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 21:46:54,711 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 21:46:55,154 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 21:46:55,573 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 21:46:56,025 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 21:46:56,028 - trading_bot - INFO - СТАТИСТИКА | Циклы: 9 | Сделки: 0 | Активные: 0 | Баланс: 9760.70 USDT
+2025-10-28 21:49:56,030 - trading_bot - INFO - Цикл #10 в 2025-10-28 21:49:56.030704
+2025-10-28 21:49:56,030 - trading_bot - INFO - Getting account balance...
+2025-10-28 21:49:56,499 - trading_bot - INFO - Account balance: 9760.70193693 USDT
+2025-10-28 21:49:57,372 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 21:49:57,814 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 21:49:58,246 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 21:49:58,728 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 21:49:59,156 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 21:49:59,160 - trading_bot - INFO - СТАТИСТИКА | Циклы: 10 | Сделки: 0 | Активные: 0 | Баланс: 9760.70 USDT
+2025-10-28 21:52:59,162 - trading_bot - INFO - Цикл #11 в 2025-10-28 21:52:59.162021
+2025-10-28 21:52:59,162 - trading_bot - INFO - Getting account balance...
+2025-10-28 21:52:59,701 - trading_bot - INFO - Account balance: 9760.70193693 USDT
+2025-10-28 21:53:00,593 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 21:53:01,068 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 21:53:01,502 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 21:53:01,963 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 21:53:02,394 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 21:53:02,397 - trading_bot - INFO - СТАТИСТИКА | Циклы: 11 | Сделки: 0 | Активные: 0 | Баланс: 9760.70 USDT
+2025-10-28 21:56:02,399 - trading_bot - INFO - Цикл #12 в 2025-10-28 21:56:02.399553
+2025-10-28 21:56:02,399 - trading_bot - INFO - Getting account balance...
+2025-10-28 21:56:02,950 - trading_bot - INFO - Account balance: 9760.70193693 USDT
+2025-10-28 21:56:03,863 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 21:56:04,301 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 21:56:04,780 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 21:56:05,238 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 21:56:05,697 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 21:56:05,701 - trading_bot - INFO - СТАТИСТИКА | Циклы: 12 | Сделки: 0 | Активные: 0 | Баланс: 9760.70 USDT
+2025-10-28 21:59:05,702 - trading_bot - INFO - Цикл #13 в 2025-10-28 21:59:05.702114
+2025-10-28 21:59:05,702 - trading_bot - INFO - Getting account balance...
+2025-10-28 21:59:06,261 - trading_bot - INFO - Account balance: 9760.70193693 USDT
+2025-10-28 21:59:07,193 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 21:59:07,655 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 21:59:08,075 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 21:59:08,526 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 21:59:08,992 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 21:59:08,996 - trading_bot - INFO - СТАТИСТИКА | Циклы: 13 | Сделки: 0 | Активные: 0 | Баланс: 9760.70 USDT
+2025-10-28 22:02:08,998 - trading_bot - INFO - Цикл #14 в 2025-10-28 22:02:08.998952
+2025-10-28 22:02:08,999 - trading_bot - INFO - Getting account balance...
+2025-10-28 22:02:09,516 - trading_bot - INFO - Account balance: 9761.95169149 USDT
+2025-10-28 22:02:10,623 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 22:02:11,069 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 22:02:11,507 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 22:02:11,996 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 22:02:12,428 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 22:02:12,432 - trading_bot - INFO - СТАТИСТИКА | Циклы: 14 | Сделки: 0 | Активные: 0 | Баланс: 9761.95 USDT
+2025-10-28 22:05:12,433 - trading_bot - INFO - Цикл #15 в 2025-10-28 22:05:12.433844
+2025-10-28 22:05:12,434 - trading_bot - INFO - Getting account balance...
+2025-10-28 22:05:12,961 - trading_bot - INFO - Account balance: 9761.95169149 USDT
+2025-10-28 22:05:13,849 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 22:05:14,287 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 22:05:14,726 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 22:05:15,219 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 22:05:15,715 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 22:05:15,719 - trading_bot - INFO - СТАТИСТИКА | Циклы: 15 | Сделки: 0 | Активные: 0 | Баланс: 9761.95 USDT
+2025-10-28 22:08:15,721 - trading_bot - INFO - Цикл #16 в 2025-10-28 22:08:15.721731
+2025-10-28 22:08:15,722 - trading_bot - INFO - Getting account balance...
+2025-10-28 22:08:16,208 - trading_bot - INFO - Account balance: 9761.95169149 USDT
+2025-10-28 22:08:17,093 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 22:08:17,531 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 22:08:17,980 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 22:08:18,411 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 22:08:19,211 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 22:08:19,215 - trading_bot - INFO - СТАТИСТИКА | Циклы: 16 | Сделки: 0 | Активные: 0 | Баланс: 9761.95 USDT
+2025-10-28 22:11:19,216 - trading_bot - INFO - Цикл #17 в 2025-10-28 22:11:19.216915
+2025-10-28 22:11:19,217 - trading_bot - INFO - Getting account balance...
+2025-10-28 22:11:19,668 - trading_bot - INFO - Account balance: 9761.95169149 USDT
+2025-10-28 22:11:20,554 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 22:11:20,973 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 22:11:21,407 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 22:11:21,820 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 22:11:22,265 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 22:11:22,267 - trading_bot - INFO - СТАТИСТИКА | Циклы: 17 | Сделки: 0 | Активные: 0 | Баланс: 9761.95 USDT
+2025-10-28 22:11:58,799 - trading_bot - INFO - Бот остановлен
+2025-10-28 22:12:04,260 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 22:12:04,261 - trading_bot - INFO - 
+🔍 АНАЛИЗ SOLUSDT:
+2025-10-28 22:12:04,674 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 22:12:04,678 - trading_bot - INFO -   📊 Текущая цена: 242.2400
+2025-10-28 22:12:04,678 - trading_bot - INFO -   📈 RSI: 74.43 (пороги: 32/68)
+2025-10-28 22:12:04,679 - trading_bot - INFO -   ✅ RSI ПЕРЕКУПЛЕННОСТЬ - потенциальный SELL
+2025-10-28 22:12:04,679 - trading_bot - INFO -   📊 EMA Short: 214.6781, EMA Long: 208.6459
+2025-10-28 22:12:04,679 - trading_bot - INFO -   ✅ EMA BULLISH (короткая выше длинной)
+2025-10-28 22:12:04,679 - trading_bot - INFO -   📊 Объем: 0.00 от среднего (мин: 0.7)
+2025-10-28 22:12:04,679 - trading_bot - INFO -   ❌ СЛИШКОМ НИЗКИЙ ОБЪЕМ
+2025-10-28 22:12:04,679 - trading_bot - INFO -   📊 Волатильность: 0.0389
+2025-10-28 22:12:04,682 - trading_bot - INFO -   🎯 ИТОГОВЫЙ СИГНАЛ: HOLD (сила: 0.00)
+2025-10-28 22:12:04,682 - trading_bot - INFO -   📝 Детали: ['Слишком низкий объем']
+2025-10-28 22:12:04,682 - trading_bot - INFO - 
+🔍 АНАЛИЗ XRPUSDT:
+2025-10-28 22:12:05,095 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 22:12:05,099 - trading_bot - INFO -   📊 Текущая цена: 2.8122
+2025-10-28 22:12:05,099 - trading_bot - INFO -   📈 RSI: 50.93 (пороги: 32/68)
+2025-10-28 22:12:05,099 - trading_bot - INFO -   ❌ RSI в нейтральной зоне
+2025-10-28 22:12:05,099 - trading_bot - INFO -   📊 EMA Short: 2.7677, EMA Long: 2.7778
+2025-10-28 22:12:05,099 - trading_bot - INFO -   ✅ EMA BEARISH (короткая ниже длинной)
+2025-10-28 22:12:05,100 - trading_bot - INFO -   📊 Объем: 0.00 от среднего (мин: 0.7)
+2025-10-28 22:12:05,100 - trading_bot - INFO -   ❌ СЛИШКОМ НИЗКИЙ ОБЪЕМ
+2025-10-28 22:12:05,100 - trading_bot - INFO -   📊 Волатильность: 0.0368
+2025-10-28 22:12:05,102 - trading_bot - INFO -   🎯 ИТОГОВЫЙ СИГНАЛ: HOLD (сила: 0.00)
+2025-10-28 22:12:05,102 - trading_bot - INFO -   📝 Детали: ['Слишком низкий объем']
+2025-10-28 22:12:05,102 - trading_bot - INFO - 
+🔍 АНАЛИЗ ADAUSDT:
+2025-10-28 22:12:05,511 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 22:12:05,515 - trading_bot - INFO -   📊 Текущая цена: 0.7320
+2025-10-28 22:12:05,516 - trading_bot - INFO -   📈 RSI: 50.16 (пороги: 32/68)
+2025-10-28 22:12:05,516 - trading_bot - INFO -   ❌ RSI в нейтральной зоне
+2025-10-28 22:12:05,516 - trading_bot - INFO -   📊 EMA Short: 0.7337, EMA Long: 0.7323
+2025-10-28 22:12:05,516 - trading_bot - INFO -   ✅ EMA BULLISH (короткая выше длинной)
+2025-10-28 22:12:05,516 - trading_bot - INFO -   📊 Объем: 0.00 от среднего (мин: 0.7)
+2025-10-28 22:12:05,516 - trading_bot - INFO -   ❌ СЛИШКОМ НИЗКИЙ ОБЪЕМ
+2025-10-28 22:12:05,516 - trading_bot - INFO -   📊 Волатильность: 0.0375
+2025-10-28 22:12:05,518 - trading_bot - INFO -   🎯 ИТОГОВЫЙ СИГНАЛ: HOLD (сила: 0.00)
+2025-10-28 22:12:05,518 - trading_bot - INFO -   📝 Детали: ['Слишком низкий объем']
+2025-10-28 22:12:05,519 - trading_bot - INFO - 
+🔍 АНАЛИЗ DOTUSDT:
+2025-10-28 22:12:05,931 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 22:12:05,934 - trading_bot - INFO -   📊 Текущая цена: 3.5832
+2025-10-28 22:12:05,934 - trading_bot - INFO -   📈 RSI: 47.18 (пороги: 32/68)
+2025-10-28 22:12:05,934 - trading_bot - INFO -   ❌ RSI в нейтральной зоне
+2025-10-28 22:12:05,934 - trading_bot - INFO -   📊 EMA Short: 3.6111, EMA Long: 3.6235
+2025-10-28 22:12:05,934 - trading_bot - INFO -   ✅ EMA BEARISH (короткая ниже длинной)
+2025-10-28 22:12:05,935 - trading_bot - INFO -   📊 Объем: 0.00 от среднего (мин: 0.7)
+2025-10-28 22:12:05,935 - trading_bot - INFO -   ❌ СЛИШКОМ НИЗКИЙ ОБЪЕМ
+2025-10-28 22:12:05,935 - trading_bot - INFO -   📊 Волатильность: 0.0373
+2025-10-28 22:12:05,937 - trading_bot - INFO -   🎯 ИТОГОВЫЙ СИГНАЛ: HOLD (сила: 0.00)
+2025-10-28 22:12:05,937 - trading_bot - INFO -   📝 Детали: ['Слишком низкий объем']
+2025-10-28 22:12:05,937 - trading_bot - INFO - 
+🔍 АНАЛИЗ NEARUSDT:
+2025-10-28 22:12:06,355 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 22:12:06,358 - trading_bot - INFO -   📊 Текущая цена: 2.4200
+2025-10-28 22:12:06,359 - trading_bot - INFO -   📈 RSI: 52.27 (пороги: 32/68)
+2025-10-28 22:12:06,359 - trading_bot - INFO -   ❌ RSI в нейтральной зоне
+2025-10-28 22:12:06,359 - trading_bot - INFO -   📊 EMA Short: 2.3927, EMA Long: 2.3810
+2025-10-28 22:12:06,359 - trading_bot - INFO -   ✅ EMA BULLISH (короткая выше длинной)
+2025-10-28 22:12:06,359 - trading_bot - INFO -   📊 Объем: 0.57 от среднего (мин: 0.7)
+2025-10-28 22:12:06,359 - trading_bot - INFO -   ❌ СЛИШКОМ НИЗКИЙ ОБЪЕМ
+2025-10-28 22:12:06,359 - trading_bot - INFO -   📊 Волатильность: 0.0396
+2025-10-28 22:12:06,361 - trading_bot - INFO -   🎯 ИТОГОВЫЙ СИГНАЛ: HOLD (сила: 0.00)
+2025-10-28 22:12:06,362 - trading_bot - INFO -   📝 Детали: ['Слишком низкий объем']
+2025-10-28 22:12:29,813 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 22:12:29,814 - trading_bot - INFO - 
+🔍 АНАЛИЗ SOLUSDT:
+2025-10-28 22:12:30,314 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 22:12:30,318 - trading_bot - INFO -   📊 Текущая цена: 242.2400
+2025-10-28 22:12:30,318 - trading_bot - INFO -   📈 RSI: 74.43 (пороги: 32/68)
+2025-10-28 22:12:30,319 - trading_bot - INFO -   ✅ RSI ПЕРЕКУПЛЕННОСТЬ - потенциальный SELL
+2025-10-28 22:12:30,319 - trading_bot - INFO -   📊 EMA Short: 214.6781, EMA Long: 208.6459
+2025-10-28 22:12:30,319 - trading_bot - INFO -   ✅ EMA BULLISH (короткая выше длинной)
+2025-10-28 22:12:30,319 - trading_bot - INFO -   📊 Объем: 0.00 от среднего (мин: 0.7)
+2025-10-28 22:12:30,319 - trading_bot - INFO -   ❌ СЛИШКОМ НИЗКИЙ ОБЪЕМ
+2025-10-28 22:12:30,319 - trading_bot - INFO -   📊 Волатильность: 0.0389
+2025-10-28 22:12:30,321 - trading_bot - INFO -   🎯 ИТОГОВЫЙ СИГНАЛ: HOLD (сила: 0.00)
+2025-10-28 22:12:30,321 - trading_bot - INFO -   📝 Детали: ['Слишком низкий объем']
+2025-10-28 22:12:30,322 - trading_bot - INFO - 
+🔍 АНАЛИЗ XRPUSDT:
+2025-10-28 22:12:30,731 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 22:12:30,735 - trading_bot - INFO -   📊 Текущая цена: 2.8122
+2025-10-28 22:12:30,735 - trading_bot - INFO -   📈 RSI: 50.93 (пороги: 32/68)
+2025-10-28 22:12:30,735 - trading_bot - INFO -   ❌ RSI в нейтральной зоне
+2025-10-28 22:12:30,735 - trading_bot - INFO -   📊 EMA Short: 2.7677, EMA Long: 2.7778
+2025-10-28 22:12:30,736 - trading_bot - INFO -   ✅ EMA BEARISH (короткая ниже длинной)
+2025-10-28 22:12:30,736 - trading_bot - INFO -   📊 Объем: 0.00 от среднего (мин: 0.7)
+2025-10-28 22:12:30,736 - trading_bot - INFO -   ❌ СЛИШКОМ НИЗКИЙ ОБЪЕМ
+2025-10-28 22:12:30,736 - trading_bot - INFO -   📊 Волатильность: 0.0368
+2025-10-28 22:12:30,739 - trading_bot - INFO -   🎯 ИТОГОВЫЙ СИГНАЛ: HOLD (сила: 0.00)
+2025-10-28 22:12:30,739 - trading_bot - INFO -   📝 Детали: ['Слишком низкий объем']
+2025-10-28 22:12:30,739 - trading_bot - INFO - 
+🔍 АНАЛИЗ ADAUSDT:
+2025-10-28 22:12:31,159 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 22:12:31,162 - trading_bot - INFO -   📊 Текущая цена: 0.7320
+2025-10-28 22:12:31,163 - trading_bot - INFO -   📈 RSI: 50.16 (пороги: 32/68)
+2025-10-28 22:12:31,163 - trading_bot - INFO -   ❌ RSI в нейтральной зоне
+2025-10-28 22:12:31,163 - trading_bot - INFO -   📊 EMA Short: 0.7337, EMA Long: 0.7323
+2025-10-28 22:12:31,163 - trading_bot - INFO -   ✅ EMA BULLISH (короткая выше длинной)
+2025-10-28 22:12:31,163 - trading_bot - INFO -   📊 Объем: 0.00 от среднего (мин: 0.7)
+2025-10-28 22:12:31,163 - trading_bot - INFO -   ❌ СЛИШКОМ НИЗКИЙ ОБЪЕМ
+2025-10-28 22:12:31,163 - trading_bot - INFO -   📊 Волатильность: 0.0375
+2025-10-28 22:12:31,166 - trading_bot - INFO -   🎯 ИТОГОВЫЙ СИГНАЛ: HOLD (сила: 0.00)
+2025-10-28 22:12:31,166 - trading_bot - INFO -   📝 Детали: ['Слишком низкий объем']
+2025-10-28 22:12:31,166 - trading_bot - INFO - 
+🔍 АНАЛИЗ DOTUSDT:
+2025-10-28 22:12:31,587 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 22:12:31,590 - trading_bot - INFO -   📊 Текущая цена: 3.5832
+2025-10-28 22:12:31,590 - trading_bot - INFO -   📈 RSI: 47.18 (пороги: 32/68)
+2025-10-28 22:12:31,590 - trading_bot - INFO -   ❌ RSI в нейтральной зоне
+2025-10-28 22:12:31,590 - trading_bot - INFO -   📊 EMA Short: 3.6111, EMA Long: 3.6235
+2025-10-28 22:12:31,590 - trading_bot - INFO -   ✅ EMA BEARISH (короткая ниже длинной)
+2025-10-28 22:12:31,590 - trading_bot - INFO -   📊 Объем: 0.00 от среднего (мин: 0.7)
+2025-10-28 22:12:31,591 - trading_bot - INFO -   ❌ СЛИШКОМ НИЗКИЙ ОБЪЕМ
+2025-10-28 22:12:31,591 - trading_bot - INFO -   📊 Волатильность: 0.0373
+2025-10-28 22:12:31,593 - trading_bot - INFO -   🎯 ИТОГОВЫЙ СИГНАЛ: HOLD (сила: 0.00)
+2025-10-28 22:12:31,593 - trading_bot - INFO -   📝 Детали: ['Слишком низкий объем']
+2025-10-28 22:12:31,593 - trading_bot - INFO - 
+🔍 АНАЛИЗ NEARUSDT:
+2025-10-28 22:12:32,032 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 22:12:32,035 - trading_bot - INFO -   📊 Текущая цена: 2.4200
+2025-10-28 22:12:32,035 - trading_bot - INFO -   📈 RSI: 52.27 (пороги: 32/68)
+2025-10-28 22:12:32,035 - trading_bot - INFO -   ❌ RSI в нейтральной зоне
+2025-10-28 22:12:32,035 - trading_bot - INFO -   📊 EMA Short: 2.3927, EMA Long: 2.3810
+2025-10-28 22:12:32,036 - trading_bot - INFO -   ✅ EMA BULLISH (короткая выше длинной)
+2025-10-28 22:12:32,036 - trading_bot - INFO -   📊 Объем: 0.57 от среднего (мин: 0.7)
+2025-10-28 22:12:32,036 - trading_bot - INFO -   ❌ СЛИШКОМ НИЗКИЙ ОБЪЕМ
+2025-10-28 22:12:32,036 - trading_bot - INFO -   📊 Волатильность: 0.0396
+2025-10-28 22:12:32,038 - trading_bot - INFO -   🎯 ИТОГОВЫЙ СИГНАЛ: HOLD (сила: 0.00)
+2025-10-28 22:12:32,038 - trading_bot - INFO -   📝 Детали: ['Слишком низкий объем']
+2025-10-28 22:13:02,233 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 22:13:02,233 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 22:13:02,234 - trading_bot - INFO - Getting account balance...
+2025-10-28 22:13:02,656 - trading_bot - INFO - Account balance: 9761.95169149 USDT
+2025-10-28 22:13:02,656 - trading_bot - INFO - Бот инициализирован с балансом: 9761.95169149 USDT
+2025-10-28 22:13:02,657 - trading_bot - INFO - Testing API connection...
+2025-10-28 22:13:03,061 - trading_bot - INFO - API connection successful. Server time: 1761678782
+2025-10-28 22:13:03,061 - trading_bot - INFO - 🚀 ТОРГОВЫЙ БОТ ЗАПУЩЕН
+2025-10-28 22:13:03,371 - trading_bot - INFO - Баланс: 9761.95169149 USDT
+2025-10-28 22:13:03,371 - trading_bot - INFO - Символы: SOLUSDT, XRPUSDT, ADAUSDT, DOTUSDT, NEARUSDT
+2025-10-28 22:13:03,371 - trading_bot - INFO - Цикл #1 в 2025-10-28 22:13:03.371877
+2025-10-28 22:13:03,372 - trading_bot - INFO - Getting account balance...
+2025-10-28 22:13:03,781 - trading_bot - INFO - Account balance: 9761.95169149 USDT
+2025-10-28 22:13:04,620 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 22:13:05,045 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 22:13:05,445 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 22:13:05,853 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 22:13:06,278 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 22:13:06,282 - trading_bot - INFO - СТАТИСТИКА | Циклы: 1 | Сделки: 0 | Активные: 0 | Баланс: 9761.95 USDT
+2025-10-28 22:13:06,282 - trading_bot - INFO - Бот работает. Ctrl+C для остановки.
+2025-10-28 22:16:06,283 - trading_bot - INFO - Цикл #2 в 2025-10-28 22:16:06.283654
+2025-10-28 22:16:06,283 - trading_bot - INFO - Getting account balance...
+2025-10-28 22:16:06,825 - trading_bot - INFO - Account balance: 9761.95169149 USDT
+2025-10-28 22:16:07,706 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 22:16:08,207 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 22:16:08,649 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 22:16:09,087 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 22:16:09,534 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 22:16:09,538 - trading_bot - INFO - СТАТИСТИКА | Циклы: 2 | Сделки: 0 | Активные: 0 | Баланс: 9761.95 USDT
+2025-10-28 22:19:09,540 - trading_bot - INFO - Цикл #3 в 2025-10-28 22:19:09.540911
+2025-10-28 22:19:09,541 - trading_bot - INFO - Getting account balance...
+2025-10-28 22:19:10,083 - trading_bot - INFO - Account balance: 9761.95169149 USDT
+2025-10-28 22:19:10,983 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 22:19:11,414 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 22:19:11,836 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 22:19:12,251 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 22:19:12,667 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 22:19:12,670 - trading_bot - INFO - СТАТИСТИКА | Циклы: 3 | Сделки: 0 | Активные: 0 | Баланс: 9761.95 USDT
+2025-10-28 22:20:47,427 - trading_bot - INFO - Бот остановлен
+2025-10-28 22:20:49,138 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 22:20:49,138 - trading_bot - INFO - Bybit client initialized successfully
+2025-10-28 22:20:49,139 - trading_bot - INFO - Getting account balance...
+2025-10-28 22:20:49,599 - trading_bot - INFO - Account balance: 9761.95169149 USDT
+2025-10-28 22:20:49,600 - trading_bot - INFO - Бот инициализирован с балансом: 9761.95169149 USDT
+2025-10-28 22:20:49,600 - trading_bot - INFO - Testing API connection...
+2025-10-28 22:20:50,018 - trading_bot - INFO - API connection successful. Server time: 1761679249
+2025-10-28 22:20:50,018 - trading_bot - INFO - 🚀 ТОРГОВЫЙ БОТ ЗАПУЩЕН
+2025-10-28 22:20:50,336 - trading_bot - INFO - Баланс: 9761.95169149 USDT
+2025-10-28 22:20:50,336 - trading_bot - INFO - Символы: SOLUSDT, XRPUSDT, ADAUSDT, DOTUSDT, NEARUSDT
+2025-10-28 22:20:50,336 - trading_bot - INFO - Цикл #1 в 2025-10-28 22:20:50.336793
+2025-10-28 22:20:50,336 - trading_bot - INFO - Getting account balance...
+2025-10-28 22:20:50,751 - trading_bot - INFO - Account balance: 9761.95169149 USDT
+2025-10-28 22:20:51,585 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 22:20:52,008 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 22:20:52,430 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 22:20:52,853 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 22:20:53,268 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 22:20:53,272 - trading_bot - INFO - СТАТИСТИКА | Циклы: 1 | Сделки: 0 | Активные: 0 | Баланс: 9761.95 USDT
+2025-10-28 22:20:53,272 - trading_bot - INFO - Бот работает. Ctrl+C для остановки.
+2025-10-28 22:23:53,273 - trading_bot - INFO - Цикл #2 в 2025-10-28 22:23:53.273791
+2025-10-28 22:23:53,274 - trading_bot - INFO - Getting account balance...
+2025-10-28 22:23:53,734 - trading_bot - INFO - Account balance: 9778.16583629 USDT
+2025-10-28 22:23:54,547 - trading_bot - INFO - Retrieved 100 klines for SOLUSDT
+2025-10-28 22:23:54,961 - trading_bot - INFO - Retrieved 100 klines for XRPUSDT
+2025-10-28 22:23:55,411 - trading_bot - INFO - Retrieved 100 klines for ADAUSDT
+2025-10-28 22:23:55,824 - trading_bot - INFO - Retrieved 100 klines for DOTUSDT
+2025-10-28 22:23:56,268 - trading_bot - INFO - Retrieved 100 klines for NEARUSDT
+2025-10-28 22:23:56,271 - trading_bot - INFO - СТАТИСТИКА | Циклы: 2 | Сделки: 0 | Активные: 0 | Баланс: 9778.17 USDT
+2025-10-28 22:24:01,332 - trading_bot - INFO - Бот остановлен

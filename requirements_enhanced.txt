@@ -1,0 +1,7 @@
+# Enhanced dependencies for ML and advanced features
+scikit-learn>=1.0.0
+pandas>=1.4.0
+numpy>=1.21.0
+ta-lib>=0.4.24
+joblib>=1.1.0
+# Your existing requirements continue below...

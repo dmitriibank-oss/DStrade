@@ -290,9 +290,30 @@ class TradingEngine:
     def execute_buy(self, pair: str):
         """Исполнение buy сигнала для конкретной пары"""
         try:
-            # ... существующий код проверки позиций ...
+            # Проверка существующей позиции
+            positions = self.api.get_positions(
+                category=self.config.CATEGORY,
+                symbol=pair
+            )
+            
+            has_long_position = False
+            if positions and 'result' in positions and 'list' in positions['result']:
+                for position in positions['result']['list']:
+                    if (position['symbol'] == pair and 
+                        float(position.get('size', 0)) > 0):
+                        has_long_position = True
+                        self.active_positions[pair] = {
+                            'size': float(position.get('size', 0)),
+                            'side': 'Buy',
+                            'entry_price': float(position.get('avgPrice', 0))
+                        }
+                        break
 
-            # Получаем текущую цену для расчета размера позиции
+            if has_long_position:
+                self.logger.info(f"Long position already exists for {pair}")
+                return
+
+            # Получаем текущую цену
             current_price_data = self.get_market_data(pair)
             if current_price_data is None or current_price_data.empty:
                 self.logger.error(f"Cannot get current price for {pair}")
@@ -300,21 +321,28 @@ class TradingEngine:
                 
             current_price = current_price_data['close'].iloc[-1]
             
-            # Расчет размера позиции
-            if self.risk_manager:
-                # Используем риск-менеджер для расчета размера
-                trade_amount = self.risk_manager.calculate_position_size(pair, current_price)
-                
-                # Получаем информацию о стоимости
-                trade_info = self.risk_manager.get_trade_value_info(pair, trade_amount, current_price)
-                
-                # Проверка на пропуск сделки из-за риска
-                volatility = self.calculate_volatility(current_price_data)
-                if self.risk_manager.should_skip_trade(pair, 'BUY', volatility):
-                    self.logger.info(f"Skipping BUY for {pair} due to risk management")
-                    return
-            else:
-                # Используем фиксированный размер из настроек
+            # Расчет размера позиции с защитой от ошибок
+            trade_amount = None
+            trade_info = {}
+            
+            try:
+                if self.risk_manager:
+                    # Используем риск-менеджер для расчета размера
+                    trade_amount = self.risk_manager.calculate_position_size(pair, current_price)
+                    
+                    # Получаем информацию о стоимости
+                    trade_info = self.risk_manager.get_trade_value_info(pair, trade_amount, current_price)
+                    
+                    # Проверка на пропуск сделки из-за риска
+                    volatility = self.calculate_volatility(current_price_data)
+                    if self.risk_manager.should_skip_trade(pair, 'BUY', volatility):
+                        self.logger.info(f"Skipping BUY for {pair} due to risk management")
+                        return
+            except Exception as e:
+                self.logger.warning(f"Risk manager failed for {pair}: {e}. Using fixed amount.")
+            
+            # Если risk_manager не сработал, используем фиксированный размер
+            if trade_amount is None:
                 pair_settings = self.config.get_pair_settings(pair)
                 trade_amount = pair_settings['trade_amount']
                 trade_info = {
@@ -328,7 +356,6 @@ class TradingEngine:
             self.logger.info(f"  Price: ${current_price:.2f}")
             self.logger.info(f"  Position Value: ${trade_info['position_value_usdt']:.2f} USDT")
             self.logger.info(f"  Leverage: {trade_info['leverage']}x")
-            self.logger.info(f"  Effective Exposure: ${trade_info.get('effective_exposure', trade_info['position_value_usdt'] * trade_info['leverage']):.2f}")
             
             # Размещение ордера
             self.logger.info(f"Executing BUY order for {trade_amount:.6f} {pair}")
@@ -350,7 +377,7 @@ class TradingEngine:
                         'size': trade_amount,
                         'side': 'Buy',
                         'entry_price': current_price,
-                        'position_value': position_value
+                        'position_value': trade_info['position_value_usdt']
                     }
             else:
                 self.logger.error(f"Buy order for {pair} failed")

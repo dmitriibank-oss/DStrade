@@ -37,8 +37,8 @@ class Config:
     
     # Strategy Configuration
     RSI_PERIOD = 14
-    RSI_OVERSOLD = 30
-    RSI_OVERBOUGHT = 70
+    RSI_OVERSOLD = 40
+    RSI_OVERBOUGHT = 60
     MACD_FAST = 12
     MACD_SLOW = 26
     MACD_SIGNAL = 9

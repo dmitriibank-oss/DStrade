@@ -26,15 +26,18 @@ class BybitAPI:
         """Генерация подписи для API v5 - исправленная версия"""
         # Для GET запросов - параметры в query string
         if method.upper() == 'GET' and params:
-            param_str = urlencode(params)
+            # Сортируем параметры по ключу
+            sorted_params = sorted(params.items())
+            param_str = urlencode(sorted_params)
         else:
             param_str = ""
             
         # Для POST запросов - тело в формате JSON
         if method.upper() == 'POST' and body:
+            # Сортируем ключи тела для консистентности
             if isinstance(body, dict):
-                # Важно: использовать separators без пробелов
-                body_str = json.dumps(body, separators=(',', ':'))
+                sorted_body = {k: body[k] for k in sorted(body.keys())}
+                body_str = json.dumps(sorted_body, separators=(',', ':'))
             else:
                 body_str = str(body)
         else:
@@ -80,8 +83,17 @@ class BybitAPI:
             if method.upper() == 'GET':
                 response = requests.get(url, params=params, headers=headers, timeout=10)
             elif method.upper() == 'POST':
-                # Для POST запросов тело передается как JSON
-                response = requests.post(url, json=body, headers=headers, timeout=10)
+                # Для POST запросов используем data вместо json для точного контроля
+                if body:
+                    # Сортируем тело для консистентности с подписью
+                    if isinstance(body, dict):
+                        sorted_body = {k: body[k] for k in sorted(body.keys())}
+                        body_data = json.dumps(sorted_body, separators=(',', ':'))
+                    else:
+                        body_data = str(body)
+                    response = requests.post(url, data=body_data, headers=headers, timeout=10)
+                else:
+                    response = requests.post(url, headers=headers, timeout=10)
             else:
                 self.logger.error(f"Unsupported HTTP method: {method}")
                 return None
@@ -121,6 +133,9 @@ class BybitAPI:
         }
         if symbol:
             params['symbol'] = symbol
+        else:
+            # Если символ не указан, получаем все позиции с settleCoin=USDT
+            params['settleCoin'] = 'USDT'
             
         return self._request('GET', '/v5/position/list', params=params)
 
@@ -131,12 +146,12 @@ class BybitAPI:
             'symbol': symbol,
             'side': side,
             'orderType': order_type,
-            'qty': str(qty),
+            'qty': str(qty),  # Всегда строка
             'timeInForce': time_in_force
         }
         
         if price and order_type in ['Limit', 'Market']:
-            body['price'] = str(price)
+            body['price'] = str(price)  # Всегда строка
             
         return self._request('POST', '/v5/order/create', body=body)
 
@@ -149,12 +164,6 @@ class BybitAPI:
             'limit': limit
         }
         return self._request('GET', '/v5/market/kline', params=params)
-
-    def set_leverage(self, category, symbol, buy_leverage, sell_leverage):
-        """Установка кредитного плеча (API v5) - ВРЕМЕННО ОТКЛЮЧИМ"""
-        # Временно отключаем установку плеча из-за проблем с подписью
-        self.logger.info(f"Skipping leverage setting for {symbol} - using default")
-        return {'retCode': 0, 'retMsg': 'SKIPPED'}
 
     def get_server_time(self):
         """Получение времени сервера Bybit"""

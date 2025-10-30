@@ -10,31 +10,25 @@ class RiskManager:
         self.logger = logging.getLogger(__name__)
         
     def calculate_position_size(self, pair: str, current_price: float) -> float:
-        """Автоматический расчет размера позиции на основе риска для 100 USDT"""
+        """Автоматический расчет размера позиции на основе риска"""
         try:
             # Получаем баланс счета
             balance_data = self.api.get_account_balance(self.config.ACCOUNT_TYPE)
             if not balance_data:
+                self.logger.warning(f"Cannot get balance data, using default amount for {pair}")
                 return self._get_default_amount(pair)
                 
-            # Извлекаем доступный баланс USDT
-            available_balance = 0
-            if 'result' in balance_data and 'list' in balance_data['result']:
-                account_info = balance_data['result']['list'][0]
-                coins = account_info.get('coin', [])
-                for coin in coins:
-                    if coin.get('coin') == 'USDT':
-                        available_balance = float(coin.get('availableToWithdraw', 0))
-                        break
+            # Извлекаем доступный баланс USDT - исправленная версия
+            available_balance = self._extract_available_balance(balance_data)
             
             if available_balance <= 0:
-                self.logger.warning(f"No available USDT balance, using default amount for {pair}")
+                self.logger.warning(f"No available USDT balance ({available_balance}), using default amount for {pair}")
                 return self._get_default_amount(pair)
             
-            # Расчет максимальной суммы на сделку (5% от баланса для тестинга)
-            max_trade_value = available_balance * 0.05
+            # Расчет максимальной суммы на сделку (10% от баланса для тестинга)
+            max_trade_value = available_balance * 0.10
             
-            # Используем BASE_TRADE_AMOUNT (100 USDT), но не более 5% от баланса
+            # Используем BASE_TRADE_AMOUNT, но не более 10% от баланса
             target_trade_value = min(self.config.BASE_TRADE_AMOUNT, max_trade_value)
             
             # Получаем индивидуальные настройки пары
@@ -47,7 +41,7 @@ class RiskManager:
             # Если базовая позиция меньше целевой, увеличиваем количество
             if base_position_value < target_trade_value:
                 adjusted_amount = target_trade_value / current_price
-                self.logger.info(f"Increased position size for {pair}: {base_amount} -> {adjusted_amount:.6f} (target: {target_trade_value:.2f} USDT)")
+                self.logger.info(f"Position size for {pair}: {base_amount} -> {adjusted_amount:.6f} (target: {target_trade_value:.2f} USDT)")
                 return adjusted_amount
             else:
                 # Если базовая позиция больше целевой, используем базовую
@@ -57,6 +51,45 @@ class RiskManager:
         except Exception as e:
             self.logger.error(f"Error calculating position size for {pair}: {e}")
             return self._get_default_amount(pair)
+    
+    def _extract_available_balance(self, balance_data: Dict) -> float:
+        """Извлечение доступного баланса с обработкой различных форматов ответа"""
+        try:
+            if 'result' in balance_data and 'list' in balance_data['result']:
+                account_info = balance_data['result']['list'][0]
+                coins = account_info.get('coin', [])
+                
+                for coin in coins:
+                    if coin.get('coin') == 'USDT':
+                        # Пробуем разные поля для получения баланса
+                        available = coin.get('availableToWithdraw')
+                        if available and available != '':
+                            return float(available)
+                        
+                        # Если availableToWithdraw пустой, используем walletBalance
+                        wallet_balance = coin.get('walletBalance')
+                        if wallet_balance and wallet_balance != '':
+                            self.logger.info("Using walletBalance instead of availableToWithdraw")
+                            return float(wallet_balance)
+                        
+                        # Если и walletBalance пустой, используем equity
+                        equity = coin.get('equity')
+                        if equity and equity != '':
+                            self.logger.info("Using equity instead of availableToWithdraw")
+                            return float(equity)
+                
+                # Если не нашли USDT, возвращаем общий equity
+                total_equity = account_info.get('totalEquity')
+                if total_equity and total_equity != '':
+                    self.logger.info("Using totalEquity as available balance")
+                    return float(total_equity)
+            
+            self.logger.warning("Cannot extract available balance from response")
+            return 0.0
+            
+        except Exception as e:
+            self.logger.error(f"Error extracting available balance: {e}")
+            return 0.0
     
     def _get_default_amount(self, pair: str) -> float:
         """Получение размера по умолчанию для пары"""
@@ -69,19 +102,6 @@ class RiskManager:
         if current_volatility > 20.0:  # 20% волатильность для тестинга
             self.logger.warning(f"Skipping {pair} trade due to high volatility: {current_volatility:.2f}%")
             return True
-            
-        # Пропускаем если баланс меньше 200 USDT (минимальный для 2 сделок)
-        balance_data = self.api.get_account_balance(self.config.ACCOUNT_TYPE)
-        if balance_data and 'result' in balance_data and 'list' in balance_data['result']:
-            account_info = balance_data['result']['list'][0]
-            coins = account_info.get('coin', [])
-            for coin in coins:
-                if coin.get('coin') == 'USDT':
-                    available_balance = float(coin.get('availableToWithdraw', 0))
-                    if available_balance < 200:
-                        self.logger.warning(f"Skipping {pair} trade due to low balance: {available_balance:.2f} USDT")
-                        return True
-                    break
             
         return False
         

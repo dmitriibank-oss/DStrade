@@ -61,8 +61,8 @@ class TradingStrategy:
         return df
 
     def generate_signal(self, df: pd.DataFrame) -> Dict:
-        """Генерация торговых сигналов - улучшенная версия"""
-        if len(df) < 100:  # Увеличили минимальное количество данных
+        """Генерация торговых сигналов - более агрессивная версия для тестирования"""
+        if len(df) < 100:
             return {'signal': 'HOLD', 'reason': 'Insufficient data'}
             
         latest = df.iloc[-1]
@@ -73,9 +73,9 @@ class TradingStrategy:
         if any(pd.isna(latest[key]) for key in required_indicators):
             return {'signal': 'HOLD', 'reason': 'Indicators not ready'}
         
-        # Сигналы от индикаторов
-        rsi_signal = self._get_rsi_signal(latest)
-        macd_signal = self._get_macd_signal(latest, prev)
+        # Более агрессивные настройки для тестирования
+        rsi_signal = self._get_aggressive_rsi_signal(latest)
+        macd_signal = self._get_aggressive_macd_signal(latest, prev)
         trend_signal = self._get_trend_signal(latest, prev)
         volume_signal = self._get_volume_signal(latest, df)
         
@@ -87,7 +87,7 @@ class TradingStrategy:
             'VOLUME': volume_signal
         }
         
-        # Подсчет баллов
+        # Подсчет баллов (более агрессивный порог)
         buy_points = 0
         sell_points = 0
         
@@ -97,35 +97,43 @@ class TradingStrategy:
             elif signal == 'SELL':
                 sell_points += 1
         
-        # Генерация финального сигнала
-        if buy_points >= 3:
+        # Генерация финального сигнала (более низкий порог)
+        if buy_points >= 2:  # Было 3
             final_signal = 'BUY'
-            reason = f"Strong buy consensus ({buy_points}/4 indicators)"
-        elif sell_points >= 3:
-            final_signal = 'SELL' 
-            reason = f"Strong sell consensus ({sell_points}/4 indicators)"
-        elif buy_points >= 2:
-            final_signal = 'BUY'
-            reason = f"Moderate buy signals ({buy_points}/4 indicators)"
-        elif sell_points >= 2:
+            reason = f"Aggressive buy ({buy_points}/4 indicators)"
+        elif sell_points >= 2:  # Было 3
             final_signal = 'SELL'
-            reason = f"Moderate sell signals ({sell_points}/4 indicators)"
+            reason = f"Aggressive sell ({sell_points}/4 indicators)"
         else:
             final_signal = 'HOLD'
             reason = f"Mixed signals (Buy: {buy_points}, Sell: {sell_points})"
-        
-        # Избегаем частой смены сигналов
-        if final_signal != self.previous_signal:
-            self.previous_signal = final_signal
-        else:
-            # Если сигнал не меняется, можно быть более уверенным
-            reason += " (Signal confirmed)"
         
         return {
             'signal': final_signal,
             'reason': reason,
             'details': signals_weight
         }
+
+    def _get_aggressive_rsi_signal(self, data) -> str:
+        """Более агрессивные RSI сигналы"""
+        rsi = data['rsi']
+        
+        if rsi < 40:  # Было 35
+            return 'BUY'
+        elif rsi > 60:  # Было 65
+            return 'SELL'
+        else:
+            return 'HOLD'
+
+    def _get_aggressive_macd_signal(self, current, previous) -> str:
+        """Более агрессивные MACD сигналы"""
+        # MACD выше нуля - покупаем, ниже - продаем
+        if current['macd'] > 0:
+            return 'BUY'
+        elif current['macd'] < 0:
+            return 'SELL'
+        else:
+            return 'HOLD'
 
     def _get_rsi_signal(self, data) -> str:
         """RSI-based signals с зонами перекупленности/перепроданности"""
